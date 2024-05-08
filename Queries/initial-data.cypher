@@ -51,4 +51,4 @@ CREATE (reactTheCompleteGuide:Course { name: "React - The Complete Guide 2024 (i
 (wordPressForBeginnersCreateAWebsiteStepByStep:Course { name: "WordPress for Beginners: Create a Website Step by Step", description: "Create Websites and Blogs With Zero Experience Using WordPress and This Step By Step Guide", price: 69.99, certificateOnCompletion: true }),
 (learnFigmaUXUIDesignEssentialTraining:Course { name: "Learn Figma - UI/UX Design Essential Training", description: "Learn how to design a beautiful and engaging mobile app with Figma. Learn-by-doing approach.", price: 39.99, certificateOnCompletion: false });
 
-CREATE (reactEssentialsDeepDive:Material { name: "React Essentials - Deep Dive" })
+CREATE (reactEssentialsDeepDive:Material { name: "React Essentials - Deep Dive" });
