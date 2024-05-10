@@ -134,8 +134,6 @@ CREATE (reactEssentialsDeepDive:Material { title: "React Essentials - Deep Dive"
        (completingTheDesign:Material { title: "Completing the Design", type: "Assignment" }),
        (prototypingSharingAndExporting:Material { title: "Prototyping, Sharing, and Exporting", type: "Video Lecture" });
 
-CREATE CONSTRAINT ON (material:Material) ASSERT material.type IN ['Text-based', 'Video Lecture', 'Presentation', 'Assignment', 'Code Project'];
-
 CREATE (reactTheCompleteGuide)-[:BELONGS_TO_CATEGORY]->(development),
        (theModernAngularBootcamp)-[:BELONGS_TO_CATEGORY]->(development),
        (aspNetCoreCrossPlatformDevelopment)-[:BELONGS_TO_CATEGORY]->(development),
@@ -188,7 +186,7 @@ CREATE (reactTheCompleteGuide)-[:INCLUDES_MATERIAL]->(reactEssentialsDeepDive),
        (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(setupASPNETCoreMVCApplication),
        (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(manipulatingWebsiteViewsAndLayout),
        (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(addingADatabase),
-       (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(customizingViewsAndElements);
+       (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(customizingViewsAndElements),
        (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(websiteAuthentication),
        (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(introductionToKotlin),
        (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(basicDifferencesBetweenKotlinAndJava),
