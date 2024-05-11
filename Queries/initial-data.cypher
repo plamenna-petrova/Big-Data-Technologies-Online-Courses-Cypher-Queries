@@ -1,567 +1,567 @@
 
-CREATE (development:Category { name: "Development" }),
-       (business:Category { name: "Business" }),
-       (financeAndAccounting:Category { name: "Finance & Accounting" }),
-       (itAndSoftware:Category { name: "IT & Software" }),
-       (design:Category { name: "Design" });
+CREATE (development:Category { name: "Development" })
+CREATE (business:Category { name: "Business" })
+CREATE (financeAndAccounting:Category { name: "Finance & Accounting" })
+CREATE (itAndSoftware:Category { name: "IT & Software" })
+CREATE (design:Category { name: "Design" })
 
-CREATE (maximilianSchwarzmüller:Instructor { firstName: "Maximilian", lastName: "Schwarzmüller", email: "maximilian_scharz@gmail.com", professionalTitle: "Professional Web Developer and Instructor" }),
-       (stephenGrinder:Instructor { firstName: "Stephen", lastName: "Grider", email: "stephen_grider@gmail.com", professionalTitle: "Engineering Architect" }),
-       (trevoirWilliams:Instructor { firstName: "Trevoir", lastName: "Williams", email: "trevoir_williams@gmail.com", professionalTitle: "Certified Trainer" }),
-       (andriiPiatakha:Instructor { firstName: "Andrii", lastName: "Piatakha", email: "andrii_piatakha@gmail.com", professionalTitle: "Founder and CEO in IT-Bulls, Founder of Learn-IT University" }),
-       (timBuchalka:Instructor { firstName: "Tim", lastName: "Buchalka", email: "tim_buchalka@gmail.com", professionalTitle: "Java Python Android and C# Expert Developer" }),
-       (goranLochert:Instructor { firstName: "Goran", lastName: "Lochert", email: "goran_lochert@gmail.com", professionalTitle: "Software Engineer | Unity Certified Expert Programmer" }),
-       (chrisHaroun:Instructor { firstName: "Chris", lastName: "Haroun", email: "chris_haroun@gmail.com", professionalTitle: "Finance, Business, AI, Excel and Public Speaking Courses Instructor" }),
-       (davidOSullivan:Instructor { firstName: "David", lastName: "OSullivan", email: "david_osullivan@gmail.com", professionalTitle: "Author and Researcher" }),
-       (laraFabans:Instructor { firstName: "Lara", lastName: "Fabans", email: "lara_fabans@gmail.com", professionalTitle: "Online marketing consultant" }),
-       (boomyTokan:Instructor { firstName: "Boomy", lastName: "Tokan", email: "boomy_tokan@gmail.com", professionalTitle: "Entrepreneur" }),
-       (bradCartwright:Instructor { firstName: "Brad", lastName: "Cartwright", email: "brad_cartwright@gmail.com", professionalTitle: "Economics Teacher, Consultant and Traveller" }),
-       (erminKreponic:Instructor { firstName: "Ermin", lastName: "Kreponic", email: "ermin_kreponic@gmail.com", professionalTitle: "IT Expert" }),
-       (aldinOmerdic:Instructor { firstName: "Aldin", lastName: "Omerdic", email: "aldin_omerdic@gmail.com", professionalTitle: "IT Expert, Entrepreneur" }),
-       (nathanHouse:Instructor { firstName: "Nathan", lastName: "House", email: "nathan_house@gmail.com", professionalTitle: "Leading Cyper Security Expert - CEO of Station X" }),
-       (andreiNeagoie:Instructor { firstName: "Andrei", lastName: "Neagoie", email: "andrei_neagoie@gmail.com", professionalTitle: "Founder of zerotomastery.io" }),
-       (danielSchifano:Instructor { firstName: "Daniel", lastName: "Schifano", email: "daniel_schifano@gmail.com", professionalTitle: "Design Leader and Mentor" }),
-       (bradSchiff:Instructor { firstName: "Brad", lastName: "Schiff", email: "brad_schiff@gmail.com", professionalTitle: "Web Developer" }),
-       (calebKingston:Instructor { firstName: "Caleb", lastName: "Kingston", email: "caleb_kingston@gmail.com", professionalTitle: "User Interface teacher www.appdesigntips.com" });
+CREATE (maximilianSchwarzmüller:Instructor { firstName: "Maximilian", lastName: "Schwarzmüller", email: "maximilian_scharz@gmail.com", professionalTitle: "Professional Web Developer and Instructor" })
+CREATE (stephenGrinder:Instructor { firstName: "Stephen", lastName: "Grider", email: "stephen_grider@gmail.com", professionalTitle: "Engineering Architect" })
+CREATE (trevoirWilliams:Instructor { firstName: "Trevoir", lastName: "Williams", email: "trevoir_williams@gmail.com", professionalTitle: "Certified Trainer" })
+CREATE (andriiPiatakha:Instructor { firstName: "Andrii", lastName: "Piatakha", email: "andrii_piatakha@gmail.com", professionalTitle: "Founder and CEO in IT-Bulls, Founder of Learn-IT University" })
+CREATE (timBuchalka:Instructor { firstName: "Tim", lastName: "Buchalka", email: "tim_buchalka@gmail.com", professionalTitle: "Java Python Android and C# Expert Developer" }) 
+CREATE (goranLochert:Instructor { firstName: "Goran", lastName: "Lochert", email: "goran_lochert@gmail.com", professionalTitle: "Software Engineer | Unity Certified Expert Programmer" })
+CREATE (chrisHaroun:Instructor { firstName: "Chris", lastName: "Haroun", email: "chris_haroun@gmail.com", professionalTitle: "Finance, Business, AI, Excel and Public Speaking Courses Instructor" })
+CREATE (davidOSullivan:Instructor { firstName: "David", lastName: "OSullivan", email: "david_osullivan@gmail.com", professionalTitle: "Author and Researcher" })
+CREATE (laraFabans:Instructor { firstName: "Lara", lastName: "Fabans", email: "lara_fabans@gmail.com", professionalTitle: "Online marketing consultant" })
+CREATE (boomyTokan:Instructor { firstName: "Boomy", lastName: "Tokan", email: "boomy_tokan@gmail.com", professionalTitle: "Entrepreneur" })
+CREATE (bradCartwright:Instructor { firstName: "Brad", lastName: "Cartwright", email: "brad_cartwright@gmail.com", professionalTitle: "Economics Teacher, Consultant and Traveller" })
+CREATE (erminKreponic:Instructor { firstName: "Ermin", lastName: "Kreponic", email: "ermin_kreponic@gmail.com", professionalTitle: "IT Expert" })
+CREATE (aldinOmerdic:Instructor { firstName: "Aldin", lastName: "Omerdic", email: "aldin_omerdic@gmail.com", professionalTitle: "IT Expert, Entrepreneur" })
+CREATE (nathanHouse:Instructor { firstName: "Nathan", lastName: "House", email: "nathan_house@gmail.com", professionalTitle: "Leading Cyper Security Expert - CEO of Station X" })
+CREATE (andreiNeagoie:Instructor { firstName: "Andrei", lastName: "Neagoie", email: "andrei_neagoie@gmail.com", professionalTitle: "Founder of zerotomastery.io" })
+CREATE (danielSchifano:Instructor { firstName: "Daniel", lastName: "Schifano", email: "daniel_schifano@gmail.com", professionalTitle: "Design Leader and Mentor" })
+CREATE (bradSchiff:Instructor { firstName: "Brad", lastName: "Schiff", email: "brad_schiff@gmail.com", professionalTitle: "Web Developer" })
+CREATE (calebKingston:Instructor { firstName: "Caleb", lastName: "Kingston", email: "caleb_kingston@gmail.com", professionalTitle: "User Interface teacher www.appdesigntips.com" })
 
-CREATE (johnDoe:User { firstName: "John", lastName: "Doe", email: "john_doe@gmail.com", phoneNumber: "+1-555-123-4567" }),
-       (janeSmith:User { firstName: "Jane", lastName: "Smith", email: "jane_smith@gmail.com", phoneNumber: "+1-555-234-5678" }),
-       (alexJohnson:User { firstName: "Alex", lastName: "Johnson", email: "alex_johnson@gmail.com", phoneNumber: "+1-555-345-6789" }),
-       (emilyBrown:User { firstName: "Emily", lastName: "Brown", email: "emily_brown@gmail.com", phoneNumber: "+1-555-456-7890" }),
-       (michaelDavis:User { firstName: "Michael", lastName: "Davis", email: "michael_davis@gmail.com", phoneNumber: "+1-555-567-8901" }),
-       (sarahWilson:User { firstName: "Sarah", lastName: "Wilson", email: "sarah_wilson@gmail.com", phoneNumber: "+1-555-678-9012" }),
-       (ryanTaylor:User { firstName: "Ryan", lastName: "Taylor", email: "ryan_taylor@gmail.com", phoneNumber: "+1-555-789-0123" }),
-       (oliviaMartinez:User { firstName: "Olivia", lastName: "Martinez", email: "olivia_martinez@gmail.com", phoneNumber: "+1-555-890-1234" }),
-       (danielGarcia:User { firstName: "Daniel", lastName: "Garcia", email: "daniel_garcia@gmail.com", phoneNumber: "+1-555-901-2345" }),
-       (samanthaAnderson:User { firstName: "Samantha", lastName: "Anderson", email: "samantha_anderson@gmail.com", phoneNumber: "+1-555-012-3456" });
+CREATE (johnDoe:User { firstName: "John", lastName: "Doe", email: "john_doe@gmail.com", phoneNumber: "+1-555-123-4567" })
+CREATE (janeSmith:User { firstName: "Jane", lastName: "Smith", email: "jane_smith@gmail.com", phoneNumber: "+1-555-234-5678" })
+CREATE (alexJohnson:User { firstName: "Alex", lastName: "Johnson", email: "alex_johnson@gmail.com", phoneNumber: "+1-555-345-6789" })
+CREATE (emilyBrown:User { firstName: "Emily", lastName: "Brown", email: "emily_brown@gmail.com", phoneNumber: "+1-555-456-7890" })
+CREATE (michaelDavis:User { firstName: "Michael", lastName: "Davis", email: "michael_davis@gmail.com", phoneNumber: "+1-555-567-8901" })
+CREATE (sarahWilson:User { firstName: "Sarah", lastName: "Wilson", email: "sarah_wilson@gmail.com", phoneNumber: "+1-555-678-9012" })
+CREATE (ryanTaylor:User { firstName: "Ryan", lastName: "Taylor", email: "ryan_taylor@gmail.com", phoneNumber: "+1-555-789-0123" })
+CREATE (oliviaMartinez:User { firstName: "Olivia", lastName: "Martinez", email: "olivia_martinez@gmail.com", phoneNumber: "+1-555-890-1234" })
+CREATE (danielGarcia:User { firstName: "Daniel", lastName: "Garcia", email: "daniel_garcia@gmail.com", phoneNumber: "+1-555-901-2345" })
+CREATE (samanthaAnderson:User { firstName: "Samantha", lastName: "Anderson", email: "samantha_anderson@gmail.com", phoneNumber: "+1-555-012-3456" })
 
-CREATE (reactTheCompleteGuide:Course { name: "React - The Complete Guide 2024 (incl. React Router & Redux)", description: "Dive in and learn React.js from scratch! Learn React, Hooks, Redux, React Router, Next.js, Best Practices and way more!", price: 14.99, certificateOnCompletion: true }),
-       (theModernAngularBootcamp:Course { name: "The Modern Angular Bootcamp", description: "Get job ready with Angular! Understand how to build and deploy production-ready apps.", price: 16.99, certificateOnCompletion: true }),
-       (aspNetCoreCrossPlatformDevelopment:Course { name: "ASP.NET Core - Cross-Platform Development", description: "Learn how to develop an ASP.NET Core application for any operating system using cross-platform tools and the dotnet CLI.", price: 64.99, certificateOnCompletion: true }),
-       (kotlinForJavaDevelopers:Course { name: "Kotlin for Java Developers", description: "Use your Java skills to learn Kotlin fast. Enhance career prospects and master Kotlin, including Java interoperability", price: 79.99, certificateOnCompletion: true }),
-       (anEntireMBAInOneCourse:Course { name: "An Entire MBA in 1 Course:Award Winning Business School Prof", description: "** #1 Best Selling Business Course! ** Everything You Need to Know About Business from Start-up to IPO", price: 14.99, certificateOnCompletion: true }),
-       (strategicInnovationAndExecution:Course { name: "Strategic Innovation and Execution", description: "Step-by-step guide to applying strategy within your team or organization", price: 19.99, certificateOnCompletion: false }),
-       (theEssentialGuideToEntrepreneurship:Course { name: "The Essential Guide to Entrepreneurship: MBA 101", description: "Help bring your dream into reality", price: 14.99, certificateOnCompletion: true }),
-       (introductionToFinanceAccountingModelingAndValuation:Course { name: "Introduction to Finance, Accounting, Modeling and Valuation", description: "Learn Finance & Accounting from Scratch by an Award Winning MBA Professor, Ivy Grad, worked @ Goldman & VC", price: 69.99, certificateOnCompletion: true }),
-       (theCompleteCryptocurrencyCourse:Course { name: "The Complete Cryptocurrency Course: More than 5 Courses in 1", description: "Learn everything you need to know about cryptocurrency and blockchain, including investing, mining and much more!", price: 79.99, certificateOnCompletion: true }),
-       (macroeconomicsAComprehensiveEconomicsCourse:Course { name: "Macroeconomics: A Comprehensive Economics Course", description: "A Course Designed to Give You a Better Understanding of the World Around You--Perfect for University and Adult Learners!", price: 84.99, certificateOnCompletion: true }),
-       (microeconomicsAComprehensiveEconomicsCourse:Course { name: "Microeconomics: A Comprehensive Economics Course", description: "A Course Designed to Give You a Better Understanding of the World Around You--Perfect for University and Adult Learners!", price: 69.99, certificateOnCompletion: true }),
-       (theCompleteEthicalHackingCourseBeginnerToAdvanced:Course { name: "The Complete Ethical Hacking Course: Beginner to Advanced!", description: "Learn how to do ethical hacking, penetration testing, web testing, and wifi hacking using kali linux!", price: 49.99, certificateOnCompletion: true }),
-       (theCompleteCyberSecurityCourseHackersExposed:Course { name: "The Complete Cyber Security Course : Hackers Exposed!", description: "Volume 1 : Become a Cyber Security Specialist, Learn How to Stop Hackers, Prevent Hacking, Learn IT Security & INFOSEC", price: 16.99, certificateOnCompletion: false }),
-       (completeWebAndMobileDesignerUXUIFigmaAndMore:Course { name: "Complete Web & Mobile Designer: UI/UX, Figma, +more", description: "Become a UX/UI Designer! Master Mobile and Web Design, User Interface + User Experience (UI/UX Design), HTML, and CSS", price: 89.99, certificateOnCompletion: true }),
-       (wordPressForBeginnersCreateAWebsiteStepByStep:Course { name: "WordPress for Beginners: Create a Website Step by Step", description: "Create Websites and Blogs With Zero Experience Using WordPress and This Step By Step Guide", price: 69.99, certificateOnCompletion: true }),
-       (learnFigmaUXUIDesignEssentialTraining:Course { name: "Learn Figma - UI/UX Design Essential Training", description: "Learn how to design a beautiful and engaging mobile app with Figma. Learn-by-doing approach.", price: 39.99, certificateOnCompletion: false });
+CREATE (reactTheCompleteGuide:Course { name: "React - The Complete Guide 2024 (incl. React Router & Redux)", description: "Dive in and learn React.js from scratch! Learn React, Hooks, Redux, React Router, Next.js, Best Practices and way more!", price: 14.99, certificateOnCompletion: true })
+CREATE (theModernAngularBootcamp:Course { name: "The Modern Angular Bootcamp", description: "Get job ready with Angular! Understand how to build and deploy production-ready apps.", price: 16.99, certificateOnCompletion: true })
+CREATE (aspNetCoreCrossPlatformDevelopment:Course { name: "ASP.NET Core - Cross-Platform Development", description: "Learn how to develop an ASP.NET Core application for any operating system using cross-platform tools and the dotnet CLI.", price: 64.99, certificateOnCompletion: true })
+CREATE (kotlinForJavaDevelopers:Course { name: "Kotlin for Java Developers", description: "Use your Java skills to learn Kotlin fast. Enhance career prospects and master Kotlin, including Java interoperability", price: 79.99, certificateOnCompletion: true })
+CREATE (anEntireMBAInOneCourse:Course { name: "An Entire MBA in 1 Course:Award Winning Business School Prof", description: "** #1 Best Selling Business Course! ** Everything You Need to Know About Business from Start-up to IPO", price: 14.99, certificateOnCompletion: true })
+CREATE (strategicInnovationAndExecution:Course { name: "Strategic Innovation and Execution", description: "Step-by-step guide to applying strategy within your team or organization", price: 19.99, certificateOnCompletion: false })
+CREATE (theEssentialGuideToEntrepreneurship:Course { name: "The Essential Guide to Entrepreneurship: MBA 101", description: "Help bring your dream into reality", price: 14.99, certificateOnCompletion: true })
+CREATE (introductionToFinanceAccountingModelingAndValuation:Course { name: "Introduction to Finance, Accounting, Modeling and Valuation", description: "Learn Finance & Accounting from Scratch by an Award Winning MBA Professor, Ivy Grad, worked @ Goldman & VC", price: 69.99, certificateOnCompletion: true })
+CREATE (theCompleteCryptocurrencyCourse:Course { name: "The Complete Cryptocurrency Course: More than 5 Courses in 1", description: "Learn everything you need to know about cryptocurrency and blockchain, including investing, mining and much more!", price: 79.99, certificateOnCompletion: true })
+CREATE (macroeconomicsAComprehensiveEconomicsCourse:Course { name: "Macroeconomics: A Comprehensive Economics Course", description: "A Course Designed to Give You a Better Understanding of the World Around You--Perfect for University and Adult Learners!", price: 84.99, certificateOnCompletion: true })
+CREATE (microeconomicsAComprehensiveEconomicsCourse:Course { name: "Microeconomics: A Comprehensive Economics Course", description: "A Course Designed to Give You a Better Understanding of the World Around You--Perfect for University and Adult Learners!", price: 69.99, certificateOnCompletion: true })
+CREATE (theCompleteEthicalHackingCourseBeginnerToAdvanced:Course { name: "The Complete Ethical Hacking Course: Beginner to Advanced!", description: "Learn how to do ethical hacking, penetration testing, web testing, and wifi hacking using kali linux!", price: 49.99, certificateOnCompletion: true })
+CREATE (theCompleteCyberSecurityCourseHackersExposed:Course { name: "The Complete Cyber Security Course : Hackers Exposed!", description: "Volume 1 : Become a Cyber Security Specialist, Learn How to Stop Hackers, Prevent Hacking, Learn IT Security & INFOSEC", price: 16.99, certificateOnCompletion: false })
+CREATE (completeWebAndMobileDesignerUXUIFigmaAndMore:Course { name: "Complete Web & Mobile Designer: UI/UX, Figma, +more", description: "Become a UX/UI Designer! Master Mobile and Web Design, User Interface + User Experience (UI/UX Design), HTML, and CSS", price: 89.99, certificateOnCompletion: true })
+CREATE (wordPressForBeginnersCreateAWebsiteStepByStep:Course { name: "WordPress for Beginners: Create a Website Step by Step", description: "Create Websites and Blogs With Zero Experience Using WordPress and This Step By Step Guide", price: 69.99, certificateOnCompletion: true })
+CREATE (learnFigmaUXUIDesignEssentialTraining:Course { name: "Learn Figma - UI/UX Design Essential Training", description: "Learn how to design a beautiful and engaging mobile app with Figma. Learn-by-doing approach.", price: 39.99, certificateOnCompletion: false })
 
-CREATE (reactEssentialsDeepDive:Material { title: "React Essentials - Deep Dive", type: "Video Lecture" }),
-       (reactEssentialsPracticeProject:Material { title: "React Essentials - Practice Project", type: "Code Project" }),
-       (stylingReactComponents:Material { title: "Styling React Components", type: "Presentation" }),
-       (projectManagementAppWithComponentsStateRefsAndMore:Material { title: "Practice Project: Project Management App (with Components, State, Refs & More)", type: "Code Project" }),
-       (practiceProjectBuildingAQuizApp:Material { title: "Practice Project: Building a Quiz App", type: "Code Project" }),
-       (understandingAngularTemplateSyntax:Material { title: "Understanding Angular Template Syntax", type: "Text-based" }),
-       (masteringPipes:Material { title: "Mastering Pipes", type: "Video Lecture" }),
-       (directivesInAngular:Material { title: "Directives in Angular", type: "Presentation" }),
-       (routingAndNavigationBetweenPages:Material { title: "Routing and Navigation Between Pages", type: "Assignment" }),
-       (lazyLoadingWithModules:Material { title: "Lazy Loading with Modules", type: "Video Lecture" }),
-       (setupASPNETCoreMVCApplication:Material { title: "Setup ASP.NET Core MVC Application", type: "Text-based" }),
-       (manipulatingWebsiteViewsAndLayout:Material { title: "Manipulating Website Views and Layout", type: "Video Lecture" }),
-       (addingADatabase:Material { title: "Adding a Database", type: "Text-based" }),
-       (customizingViewsAndElements:Material { title: "Customizing Views and Elements", type: "Assignment" }),
-       (websiteAuthentication:Material { title: "Website Authentication", type: "Video Lecture" }),
-       (introductionToKotlin:Material { title: "Introduction to Kotlin", type: "Text-based" }),
-       (basicDifferencesBetweenKotlinAndJava:Material { title: "Basic Differences Between Kotlin and Java", type: "Presentation" }),
-       (dataTypesAndNullReferenceHandling:Material { title: "Data Types and Null Reference Handling", type: "Text-based" }),
-       (lambdaExpressionsCollectionsAndGenerics:Material { title: "Lambda Expressions, Collections and Generics", type: "Text-based" }),
-       (javaInteroperability:Material { title: "Java Interoperability", type: "Presentation" }),
-       (investorValuationTopicsAndDilution:Material { title: "Investor Valuation Topics & Dilution", type: "Video Lecture" }),
-       (financialAnalysis:Material { title: "Financial Analysis", type: "Text-based" }),
-       (managingCashFlow:Material { title: "Managing Cash Flow", type: "Presentation" }),
-       (financialCapitalAndSecuritiesLaw:Material { title: "Financial Capital and Securities Law", type: "Text-based" }),
-       (projectingFinancialStatements:Material { title: "Projecting Financial Statements", type: "Video Lecture" }),
-       (managingInnovation:Material { title: "Managing Innovation", type: "Presentation" }),
-       (definingGoals:Material { title: "Defining Goals", type: "Text-based" }),
-       (managingActions:Material { title: "Managing Actions", type: "Video Lecture" }),
-       (empoweringTeams:Material { title: "Empowering Teams", type: "Presentation" }),
-       (monitoringResults:Material { title: "Monitoring Results", type: "Assignment" }),
-       (whatIsEntrepreneurship:Material { title: "What Is Entrepreneurship", type: "Presentation" }),
-       (overviewOfPlanning:Material { title: "Overview of Planning", type: "Video Lecture" }),
-       (yourBusinessPlan:Material { title: "Your Business Plan", type: "Text-based" }),
-       (craftingABusinessPlan:Material { title: "Crafting a Business Plan", type: "Assignment" }),
-       (craftingAMarketingPlan:Material { title: "Crafting a Marketing Plan", type: "Assignment" }),
-       (incomeStatementAnalysis:Material { title: "Income Statement Analysis", type: "Text-based" }),
-       (balanceSheetAnalysis:Material { title: "Balance Sheet Analysis", type: "Presentation" }),
-       (priceToRevenue:Material { title: "Price to Revenue", type: "Text-based" }),
-       (priceToEarningsAndAdditionalValuationMethodologies:Material { title: "Price to Earnings & Additional Valuation Methodologies", type: "Video Lecture" }),
-       (assessingFinancialsWithFormulas:Material { title: "Assessing Financials with Formulas", type: "Text-based" }),
-       (introductionToSecurityAndWallets:Material { title: "Introduction to Security and Wallets", type: "Text-based" }),
-       (introductionToBlockchain:Material { title: "Introduction to Blockchain", type: "Presentation" }),
-       (introductionToMining:Material { title: "Introduction to Mining", type: "Text-based" }),
-       (introductionToCryptocurrencies:Material { title: "Introduction to Cryptocurrencies", type: "Presentation" }),
-       (introToEthereumProsAndConsTransactingInvestingAndMining:Material { title: "Intro to Ethereum (Pros & Cons, Transacting, Investing & Mining)", type: "Video Lecture" }),
-       (foundationsOfMacroeconomics:Material { title: "Foundations of Macroeconomics", type: "Text-based" }),
-       (aggregateDemandAndAggregateSupply:Material { title: "Aggregate Demand and Aggregate Supply", type: "Presentation" }),
-       (macroeconomicEquilibrium:Material { title: "Macroeconomic Equilibrium", type: "Video Lecture" }),
-       (lowUnemployment:Material { title: "Low Unemployment", type: "Text-based" }),
-       (lowAndStableRateOfInflation:Material { title: "Low and Stable Rate of Inflation", type: "Video Lecture" }),
-       (economicGrowth:Material { title: "Economic Growth", type: "Video Lecture" }),
-       (equityInTheDistributionOfIncome:Material { title: "Equity in the Distribution of Income", type: "Video Lecture" }),
-       (introductionToMicroeconomics:Material { title: "Welcome to Microeconomics! Introduction and Overview of Course", type: "Presentation" }),
-       (demandSupplyAndMarketEquilibrium:Material { title: "Demand, Supply, and Market Equilibrium", type: "Video Lecture" }),
-       (elasticities:Material { title: "Elasticities", type: "Presentation" }),
-       (governmentIntervention:Material { title: "Government Intervention", type: "Text-based" }),
-       (marketFailure:Material { title: "Market Failure", type: "Presentation" }),
-       (buildYourHackingEnvironment:Material { title: "Build your hacking environment!", type: "Video Lecture" }),
-       (linuxTerminalIncludingBasicFunctionalitiesAndCLI:Material { title: "Linux Terminal including basic functionalities and CLI.", type: "Video Lecture" }),
-       (howCanYouUseTorToProtectYourAnonymityOnline:Material { title: "What is Tor? How can you use it to protect your anonymity online?", type: "Presentation" }),
-       (proxyChainsForUsingProxyServersHidingYourIPAndObtainingAccess:Material { title: "ProxyChains for using proxy servers, hiding your ip, and obtaining access.", type: "Presentation" }),
-       (whatIsAVirtualPrivateNetworkAndHowYouCanStayAnonymousWihtVPN:Material { title: "What is a Virtual Private Network (VPN) and how you can stay anonymous with VPN?", type: "Video Lecture" }),
-       (settingUpATestingEnvironmentUsingVirtualMachines:Material { title: "Setting up a Testing Environment Using Virtual Machines (Lab)", type: "Video Lecture" }),
-       (operatingSystemSecurityAndPrivacyWindowsVSMacOSXVSLinux:Material { title: "Operating System Security & Privacy (Windows vs Mac OS X vs Linux)", type: "Video Lecture" }),
-       (securityBugsAndVulnerabilities:Material { title: "Security Bugs and Vulnerabilities", type: "Text-based" }),
-       (reducingThreatPrivilige:Material { title: "Reducing Threat Privilige", type: "Text-based" }),
-       (socialEngineeringAndSocialMediaOffenceAndDefence:Material { title: "Social Engineering and Social Media Offence and Defence", type: "Presentation" }),
-       (sketching:Material { title: "Sketching", type: "Video Lecture" }),
-       (userFlows:Material { title: "User Flows", type: "Presentation" }),
-       (sitemaps:Material { title: "Sitemaps", type: "Text-based" }),
-       (wireframes:Material { title: "Wireframes", type: "Video Lecture" }),
-       (prototyping:Material { title: "Prototyping", type: "Presentation" }),
-       (photoGalleryPage:Material { title: "Photo Gallery Page", type: "Code Project" }),
-       (blogPosts:Material { title: "Blog Posts", type: "Code Project" }),
-       (widgets:Material { title: "Widgets", type: "Video Lecture" }),
-       (contactPage:Material { title: "Contact Page", type: "Code Project" }),
-       (usersAndSettings:Material { title: "Users & Settings", type: "Presentation" }),
-       (learningTheFigmaInterface:Material { title: "Learning the Figma Interface", type: "Video Lecture" }),
-       (addingAndEditingContent:Material { title: "Adding and Editing Content", type: "Assignment" }),
-       (completingTheDesign:Material { title: "Completing the Design", type: "Assignment" }),
-       (prototypingSharingAndExporting:Material { title: "Prototyping, Sharing, and Exporting", type: "Video Lecture" });
+CREATE (reactEssentialsDeepDive:Material { title: "React Essentials - Deep Dive", type: "Video Lecture" })
+CREATE (reactEssentialsPracticeProject:Material { title: "React Essentials - Practice Project", type: "Code Project" })
+CREATE (stylingReactComponents:Material { title: "Styling React Components", type: "Presentation" })
+CREATE (projectManagementAppWithComponentsStateRefsAndMore:Material { title: "Practice Project: Project Management App (with Components, State, Refs & More)", type: "Code Project" })
+CREATE (practiceProjectBuildingAQuizApp:Material { title: "Practice Project: Building a Quiz App", type: "Code Project" })
+CREATE (understandingAngularTemplateSyntax:Material { title: "Understanding Angular Template Syntax", type: "Text-based" })
+CREATE (masteringPipes:Material { title: "Mastering Pipes", type: "Video Lecture" })
+CREATE (directivesInAngular:Material { title: "Directives in Angular", type: "Presentation" })
+CREATE (routingAndNavigationBetweenPages:Material { title: "Routing and Navigation Between Pages", type: "Assignment" })
+CREATE (lazyLoadingWithModules:Material { title: "Lazy Loading with Modules", type: "Video Lecture" })
+CREATE (setupASPNETCoreMVCApplication:Material { title: "Setup ASP.NET Core MVC Application", type: "Text-based" })
+CREATE (manipulatingWebsiteViewsAndLayout:Material { title: "Manipulating Website Views and Layout", type: "Video Lecture" })
+CREATE (addingADatabase:Material { title: "Adding a Database", type: "Text-based" })
+CREATE (customizingViewsAndElements:Material { title: "Customizing Views and Elements", type: "Assignment" })
+CREATE (websiteAuthentication:Material { title: "Website Authentication", type: "Video Lecture" })
+CREATE (introductionToKotlin:Material { title: "Introduction to Kotlin", type: "Text-based" })
+CREATE (basicDifferencesBetweenKotlinAndJava:Material { title: "Basic Differences Between Kotlin and Java", type: "Presentation" })
+CREATE (dataTypesAndNullReferenceHandling:Material { title: "Data Types and Null Reference Handling", type: "Text-based" })
+CREATE (lambdaExpressionsCollectionsAndGenerics:Material { title: "Lambda Expressions, Collections and Generics", type: "Text-based" })
+CREATE (javaInteroperability:Material { title: "Java Interoperability", type: "Presentation" })
+CREATE (investorValuationTopicsAndDilution:Material { title: "Investor Valuation Topics & Dilution", type: "Video Lecture" })
+CREATE (financialAnalysis:Material { title: "Financial Analysis", type: "Text-based" })
+CREATE (managingCashFlow:Material { title: "Managing Cash Flow", type: "Presentation" })
+CREATE (financialCapitalAndSecuritiesLaw:Material { title: "Financial Capital and Securities Law", type: "Text-based" })
+CREATE (projectingFinancialStatements:Material { title: "Projecting Financial Statements", type: "Video Lecture" })
+CREATE (managingInnovation:Material { title: "Managing Innovation", type: "Presentation" })
+CREATE (definingGoals:Material { title: "Defining Goals", type: "Text-based" })
+CREATE (managingActions:Material { title: "Managing Actions", type: "Video Lecture" })
+CREATE (empoweringTeams:Material { title: "Empowering Teams", type: "Presentation" })
+CREATE (monitoringResults:Material { title: "Monitoring Results", type: "Assignment" })
+CREATE (whatIsEntrepreneurship:Material { title: "What Is Entrepreneurship", type: "Presentation" })
+CREATE (overviewOfPlanning:Material { title: "Overview of Planning", type: "Video Lecture" })
+CREATE (yourBusinessPlan:Material { title: "Your Business Plan", type: "Text-based" })
+CREATE (craftingABusinessPlan:Material { title: "Crafting a Business Plan", type: "Assignment" })
+CREATE (craftingAMarketingPlan:Material { title: "Crafting a Marketing Plan", type: "Assignment" })
+CREATE (incomeStatementAnalysis:Material { title: "Income Statement Analysis", type: "Text-based" })
+CREATE (balanceSheetAnalysis:Material { title: "Balance Sheet Analysis", type: "Presentation" })
+CREATE (priceToRevenue:Material { title: "Price to Revenue", type: "Text-based" })
+CREATE (priceToEarningsAndAdditionalValuationMethodologies:Material { title: "Price to Earnings & Additional Valuation Methodologies", type: "Video Lecture" })
+CREATE (assessingFinancialsWithFormulas:Material { title: "Assessing Financials with Formulas", type: "Text-based" })
+CREATE (introductionToSecurityAndWallets:Material { title: "Introduction to Security and Wallets", type: "Text-based" })
+CREATE (introductionToBlockchain:Material { title: "Introduction to Blockchain", type: "Presentation" })
+CREATE (introductionToMining:Material { title: "Introduction to Mining", type: "Text-based" })
+CREATE (introductionToCryptocurrencies:Material { title: "Introduction to Cryptocurrencies", type: "Presentation" })
+CREATE (introToEthereumProsAndConsTransactingInvestingAndMining:Material { title: "Intro to Ethereum (Pros & Cons, Transacting, Investing & Mining)", type: "Video Lecture" })
+CREATE (foundationsOfMacroeconomics:Material { title: "Foundations of Macroeconomics", type: "Text-based" })
+CREATE (aggregateDemandAndAggregateSupply:Material { title: "Aggregate Demand and Aggregate Supply", type: "Presentation" })
+CREATE (macroeconomicEquilibrium:Material { title: "Macroeconomic Equilibrium", type: "Video Lecture" })
+CREATE (lowUnemployment:Material { title: "Low Unemployment", type: "Text-based" })
+CREATE (lowAndStableRateOfInflation:Material { title: "Low and Stable Rate of Inflation", type: "Video Lecture" })
+CREATE (economicGrowth:Material { title: "Economic Growth", type: "Video Lecture" })
+CREATE (equityInTheDistributionOfIncome:Material { title: "Equity in the Distribution of Income", type: "Video Lecture" })
+CREATE (introductionToMicroeconomics:Material { title: "Welcome to Microeconomics! Introduction and Overview of Course", type: "Presentation" })
+CREATE (demandSupplyAndMarketEquilibrium:Material { title: "Demand, Supply, and Market Equilibrium", type: "Video Lecture" })
+CREATE (elasticities:Material { title: "Elasticities", type: "Presentation" })
+CREATE (governmentIntervention:Material { title: "Government Intervention", type: "Text-based" })
+CREATE (marketFailure:Material { title: "Market Failure", type: "Presentation" })
+CREATE (buildYourHackingEnvironment:Material { title: "Build your hacking environment!", type: "Video Lecture" })
+CREATE (linuxTerminalIncludingBasicFunctionalitiesAndCLI:Material { title: "Linux Terminal including basic functionalities and CLI.", type: "Video Lecture" })
+CREATE (howCanYouUseTorToProtectYourAnonymityOnline:Material { title: "What is Tor? How can you use it to protect your anonymity online?", type: "Presentation" })
+CREATE (proxyChainsForUsingProxyServersHidingYourIPAndObtainingAccess:Material { title: "ProxyChains for using proxy servers, hiding your ip, and obtaining access.", type: "Presentation" })
+CREATE (whatIsAVirtualPrivateNetworkAndHowYouCanStayAnonymousWihtVPN:Material { title: "What is a Virtual Private Network (VPN) and how you can stay anonymous with VPN?", type: "Video Lecture" })
+CREATE (settingUpATestingEnvironmentUsingVirtualMachines:Material { title: "Setting up a Testing Environment Using Virtual Machines (Lab)", type: "Video Lecture" })
+CREATE (operatingSystemSecurityAndPrivacyWindowsVSMacOSXVSLinux:Material { title: "Operating System Security & Privacy (Windows vs Mac OS X vs Linux)", type: "Video Lecture" })
+CREATE (securityBugsAndVulnerabilities:Material { title: "Security Bugs and Vulnerabilities", type: "Text-based" })
+CREATE (reducingThreatPrivilige:Material { title: "Reducing Threat Privilige", type: "Text-based" })
+CREATE (socialEngineeringAndSocialMediaOffenceAndDefence:Material { title: "Social Engineering and Social Media Offence and Defence", type: "Presentation" })
+CREATE (sketching:Material { title: "Sketching", type: "Video Lecture" })
+CREATE (userFlows:Material { title: "User Flows", type: "Presentation" })
+CREATE (sitemaps:Material { title: "Sitemaps", type: "Text-based" })
+CREATE (wireframes:Material { title: "Wireframes", type: "Video Lecture" })
+CREATE (prototyping:Material { title: "Prototyping", type: "Presentation" })
+CREATE (photoGalleryPage:Material { title: "Photo Gallery Page", type: "Code Project" })
+CREATE (blogPosts:Material { title: "Blog Posts", type: "Code Project" })
+CREATE (widgets:Material { title: "Widgets", type: "Video Lecture" })
+CREATE (contactPage:Material { title: "Contact Page", type: "Code Project" })
+CREATE (usersAndSettings:Material { title: "Users & Settings", type: "Presentation" })
+CREATE (learningTheFigmaInterface:Material { title: "Learning the Figma Interface", type: "Video Lecture" })
+CREATE (addingAndEditingContent:Material { title: "Adding and Editing Content", type: "Assignment" })
+CREATE (completingTheDesign:Material { title: "Completing the Design", type: "Assignment" })
+CREATE (prototypingSharingAndExporting:Material { title: "Prototyping, Sharing, and Exporting", type: "Video Lecture" })
 
-CREATE (reactTheCompleteGuide)-[:BELONGS_TO_CATEGORY]->(development),
-       (theModernAngularBootcamp)-[:BELONGS_TO_CATEGORY]->(development),
-       (aspNetCoreCrossPlatformDevelopment)-[:BELONGS_TO_CATEGORY]->(development),
-       (kotlinForJavaDevelopers)-[:BELONGS_TO_CATEGORY]->(development),
-       (anEntireMBAInOneCourse)-[:BELONGS_TO_CATEGORY]->(business),
-       (strategicInnovationAndExecution)-[:BELONGS_TO_CATEGORY]->(business),
-       (theEssentialGuideToEntrepreneurship)-[:BELONGS_TO_CATEGORY]->(business),
-       (introductionToFinanceAccountingModelingAndValuation)-[:BELONGS_TO_CATEGORY]->(financeAndAccounting),
-       (theCompleteCryptocurrencyCourse)-[:BELONGS_TO_CATEGORY]->(financeAndAccounting),
-       (macroeconomicsAComprehensiveEconomicsCourse)-[:BELONGS_TO_CATEGORY]->(financeAndAccounting),
-       (microeconomicsAComprehensiveEconomicsCourse)-[:BELONGS_TO_CATEGORY]->(financeAndAccounting),
-       (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:BELONGS_TO_CATEGORY]->(itAndSoftware),
-       (theCompleteCyberSecurityCourseHackersExposed)-[:BELONGS_TO_CATEGORY]->(itAndSoftware),
-       (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:BELONGS_TO_CATEGORY]->(design),
-       (wordPressForBeginnersCreateAWebsiteStepByStep)-[:BELONGS_TO_CATEGORY]->(design),
-       (learnFigmaUXUIDesignEssentialTraining)-[:BELONGS_TO_CATEGORY]->(design);
+CREATE (reactTheCompleteGuide)-[:BELONGS_TO_CATEGORY]->(development)
+CREATE (theModernAngularBootcamp)-[:BELONGS_TO_CATEGORY]->(development)
+CREATE (aspNetCoreCrossPlatformDevelopment)-[:BELONGS_TO_CATEGORY]->(development)
+CREATE (kotlinForJavaDevelopers)-[:BELONGS_TO_CATEGORY]->(development)
+CREATE (anEntireMBAInOneCourse)-[:BELONGS_TO_CATEGORY]->(business)
+CREATE (strategicInnovationAndExecution)-[:BELONGS_TO_CATEGORY]->(business)
+CREATE (theEssentialGuideToEntrepreneurship)-[:BELONGS_TO_CATEGORY]->(business)
+CREATE (introductionToFinanceAccountingModelingAndValuation)-[:BELONGS_TO_CATEGORY]->(financeAndAccounting)
+CREATE (theCompleteCryptocurrencyCourse)-[:BELONGS_TO_CATEGORY]->(financeAndAccounting)
+CREATE (macroeconomicsAComprehensiveEconomicsCourse)-[:BELONGS_TO_CATEGORY]->(financeAndAccounting)
+CREATE (microeconomicsAComprehensiveEconomicsCourse)-[:BELONGS_TO_CATEGORY]->(financeAndAccounting)
+CREATE (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:BELONGS_TO_CATEGORY]->(itAndSoftware)
+CREATE (theCompleteCyberSecurityCourseHackersExposed)-[:BELONGS_TO_CATEGORY]->(itAndSoftware)
+CREATE (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:BELONGS_TO_CATEGORY]->(design)
+CREATE (wordPressForBeginnersCreateAWebsiteStepByStep)-[:BELONGS_TO_CATEGORY]->(design)
+CREATE (learnFigmaUXUIDesignEssentialTraining)-[:BELONGS_TO_CATEGORY]->(design)
 
-CREATE (maximilianSchwarzmüller)-[:TEACHES_COURSE]->(reactTheCompleteGuide),
-       (stephenGrinder)-[:TEACHES_COURSE]->(theModernAngularBootcamp),
-       (trevoirWilliams)-[:TEACHES_COURSE]->(aspNetCoreCrossPlatformDevelopment),
-       (andriiPiatakha)-[:TEACHES_COURSE]->(aspNetCoreCrossPlatformDevelopment),
-       (timBuchalka)-[:TEACHES_COURSE]->(kotlinForJavaDevelopers),
-       (goranLochert)-[:TEACHES_COURSE]->(kotlinForJavaDevelopers),
-       (chrisHaroun)-[:TEACHES_COURSE]->(anEntireMBAInOneCourse),
-       (davidOSullivan)-[:TEACHES_COURSE]->(strategicInnovationAndExecution),
-       (laraFabans)-[:TEACHES_COURSE]->(theEssentialGuideToEntrepreneurship),
-       (boomyTokan)-[:TEACHES_COURSE]->(theEssentialGuideToEntrepreneurship),
-       (chrisHaroun)-[:TEACHES_COURSE]->(introductionToFinanceAccountingModelingAndValuation),
-       (chrisHaroun)-[:TEACHES_COURSE]->(theCompleteCryptocurrencyCourse),
-       (bradCartwright)-[:TEACHES_COURSE]->(macroeconomicsAComprehensiveEconomicsCourse),
-       (bradCartwright)-[:TEACHES_COURSE]->(microeconomicsAComprehensiveEconomicsCourse),
-       (erminKreponic)-[:TEACHES_COURSE]->(theCompleteEthicalHackingCourseBeginnerToAdvanced),
-       (aldinOmerdic)-[:TEACHES_COURSE]->(theCompleteEthicalHackingCourseBeginnerToAdvanced),
-       (nathanHouse)-[:TEACHES_COURSE]->(theCompleteCyberSecurityCourseHackersExposed),
-       (andreiNeagoie)-[:TEACHES_COURSE]->(completeWebAndMobileDesignerUXUIFigmaAndMore),
-       (danielSchifano)-[:TEACHES_COURSE]->(completeWebAndMobileDesignerUXUIFigmaAndMore),
-       (bradSchiff)-[:TEACHES_COURSE]->(wordPressForBeginnersCreateAWebsiteStepByStep),
-       (calebKingston)-[:TEACHES_COURSE]->(learnFigmaUXUIDesignEssentialTraining);
+CREATE (maximilianSchwarzmüller)-[:TEACHES_COURSE]->(reactTheCompleteGuide)
+CREATE (stephenGrinder)-[:TEACHES_COURSE]->(theModernAngularBootcamp)
+CREATE (trevoirWilliams)-[:TEACHES_COURSE]->(aspNetCoreCrossPlatformDevelopment)
+CREATE (andriiPiatakha)-[:TEACHES_COURSE]->(aspNetCoreCrossPlatformDevelopment)
+CREATE (timBuchalka)-[:TEACHES_COURSE]->(kotlinForJavaDevelopers)
+CREATE (goranLochert)-[:TEACHES_COURSE]->(kotlinForJavaDevelopers)
+CREATE (chrisHaroun)-[:TEACHES_COURSE]->(anEntireMBAInOneCourse)
+CREATE (davidOSullivan)-[:TEACHES_COURSE]->(strategicInnovationAndExecution)
+CREATE (laraFabans)-[:TEACHES_COURSE]->(theEssentialGuideToEntrepreneurship)
+CREATE (boomyTokan)-[:TEACHES_COURSE]->(theEssentialGuideToEntrepreneurship)
+CREATE (chrisHaroun)-[:TEACHES_COURSE]->(introductionToFinanceAccountingModelingAndValuation)
+CREATE (chrisHaroun)-[:TEACHES_COURSE]->(theCompleteCryptocurrencyCourse)
+CREATE (bradCartwright)-[:TEACHES_COURSE]->(macroeconomicsAComprehensiveEconomicsCourse)
+CREATE (bradCartwright)-[:TEACHES_COURSE]->(microeconomicsAComprehensiveEconomicsCourse)
+CREATE (erminKreponic)-[:TEACHES_COURSE]->(theCompleteEthicalHackingCourseBeginnerToAdvanced)
+CREATE (aldinOmerdic)-[:TEACHES_COURSE]->(theCompleteEthicalHackingCourseBeginnerToAdvanced)
+CREATE (nathanHouse)-[:TEACHES_COURSE]->(theCompleteCyberSecurityCourseHackersExposed)
+CREATE (andreiNeagoie)-[:TEACHES_COURSE]->(completeWebAndMobileDesignerUXUIFigmaAndMore)
+CREATE (danielSchifano)-[:TEACHES_COURSE]->(completeWebAndMobileDesignerUXUIFigmaAndMore)
+CREATE (bradSchiff)-[:TEACHES_COURSE]->(wordPressForBeginnersCreateAWebsiteStepByStep)
+CREATE (calebKingston)-[:TEACHES_COURSE]->(learnFigmaUXUIDesignEssentialTraining)
 
-CREATE (reactTheCompleteGuide)-[:INCLUDES_MATERIAL]->(reactEssentialsDeepDive),
-       (reactTheCompleteGuide)-[:INCLUDES_MATERIAL]->(reactEssentialsPracticeProject),
-       (reactTheCompleteGuide)-[:INCLUDES_MATERIAL]->(stylingReactComponents),
-       (reactTheCompleteGuide)-[:INCLUDES_MATERIAL]->(projectManagementAppWithComponentsStateRefsAndMore),
-       (reactTheCompleteGuide)-[:INCLUDES_MATERIAL]->(practiceProjectBuildingAQuizApp),
-       (theModernAngularBootcamp)-[:INCLUDES_MATERIAL]->(understandingAngularTemplateSyntax),
-       (theModernAngularBootcamp)-[:INCLUDES_MATERIAL]->(masteringPipes),
-       (theModernAngularBootcamp)-[:INCLUDES_MATERIAL]->(directivesInAngular),
-       (theModernAngularBootcamp)-[:INCLUDES_MATERIAL]->(routingAndNavigationBetweenPages),
-       (theModernAngularBootcamp)-[:INCLUDES_MATERIAL]->(lazyLoadingWithModules),
-       (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(setupASPNETCoreMVCApplication),
-       (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(manipulatingWebsiteViewsAndLayout),
-       (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(addingADatabase),
-       (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(customizingViewsAndElements),
-       (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(websiteAuthentication),
-       (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(introductionToKotlin),
-       (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(basicDifferencesBetweenKotlinAndJava),
-       (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(dataTypesAndNullReferenceHandling),
-       (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(lambdaExpressionsCollectionsAndGenerics),
-       (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(javaInteroperability),
-       (anEntireMBAInOneCourse)-[:INCLUDES_MATERIAL]->(investorValuationTopicsAndDilution),
-       (anEntireMBAInOneCourse)-[:INCLUDES_MATERIAL]->(financialAnalysis),
-       (anEntireMBAInOneCourse)-[:INCLUDES_MATERIAL]->(managingCashFlow),
-       (anEntireMBAInOneCourse)-[:INCLUDES_MATERIAL]->(financialCapitalAndSecuritiesLaw),
-       (anEntireMBAInOneCourse)-[:INCLUDES_MATERIAL]->(projectingFinancialStatements),
-       (strategicInnovationAndExecution)-[:INCLUDES_MATERIAL]->(managingInnovation),
-       (strategicInnovationAndExecution)-[:INCLUDES_MATERIAL]->(definingGoals),
-       (strategicInnovationAndExecution)-[:INCLUDES_MATERIAL]->(managingActions),
-       (strategicInnovationAndExecution)-[:INCLUDES_MATERIAL]->(empoweringTeams),
-       (strategicInnovationAndExecution)-[:INCLUDES_MATERIAL]->(monitoringResults),
-       (theEssentialGuideToEntrepreneurship)-[:INCLUDES_MATERIAL]->(whatIsEntrepreneurship),
-       (theEssentialGuideToEntrepreneurship)-[:INCLUDES_MATERIAL]->(overviewOfPlanning),
-       (theEssentialGuideToEntrepreneurship)-[:INCLUDES_MATERIAL]->(yourBusinessPlan),
-       (theEssentialGuideToEntrepreneurship)-[:INCLUDES_MATERIAL]->(craftingABusinessPlan),
-       (theEssentialGuideToEntrepreneurship)-[:INCLUDES_MATERIAL]->(craftingAMarketingPlan),
-       (introductionToFinanceAccountingModelingAndValuation)-[:INCLUDES_MATERIAL]->(incomeStatementAnalysis),
-       (introductionToFinanceAccountingModelingAndValuation)-[:INCLUDES_MATERIAL]->(balanceSheetAnalysis),
-       (introductionToFinanceAccountingModelingAndValuation)-[:INCLUDES_MATERIAL]->(priceToRevenue),
-       (introductionToFinanceAccountingModelingAndValuation)-[:INCLUDES_MATERIAL]->(priceToEarningsAndAdditionalValuationMethodologies),
-       (introductionToFinanceAccountingModelingAndValuation)-[:INCLUDES_MATERIAL]->(assessingFinancialsWithFormulas),
-       (theCompleteCryptocurrencyCourse)-[:INCLUDES_MATERIAL]->(introductionToSecurityAndWallets),
-       (theCompleteCryptocurrencyCourse)-[:INCLUDES_MATERIAL]->(introductionToBlockchain),
-       (theCompleteCryptocurrencyCourse)-[:INCLUDES_MATERIAL]->(introductionToMining),
-       (theCompleteCryptocurrencyCourse)-[:INCLUDES_MATERIAL]->(introductionToCryptocurrencies),
-       (theCompleteCryptocurrencyCourse)-[:INCLUDES_MATERIAL]->(introToEthereumProsAndConsTransactingInvestingAndMining),
-       (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(foundationsOfMacroeconomics),
-       (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(aggregateDemandAndAggregateSupply),
-       (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(macroeconomicEquilibrium),
-       (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(lowUnemployment),
-       (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(lowAndStableRateOfInflation),
-       (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(economicGrowth),
-       (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(equityInTheDistributionOfIncome),
-       (microeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(introductionToMicroeconomics),
-       (microeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(demandSupplyAndMarketEquilibrium),
-       (microeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(elasticities),
-       (microeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(governmentIntervention),
-       (microeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(marketFailure),
-       (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:INCLUDES_MATERIAL]->(buildYourHackingEnvironment),
-       (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:INCLUDES_MATERIAL]->(linuxTerminalIncludingBasicFunctionalitiesAndCLI),
-       (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:INCLUDES_MATERIAL]->(howCanYouUseTorToProtectYourAnonymityOnline),
-       (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:INCLUDES_MATERIAL]->(proxyChainsForUsingProxyServersHidingYourIPAndObtainingAccess),
-       (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:INCLUDES_MATERIAL]->(whatIsAVirtualPrivateNetworkAndHowYouCanStayAnonymousWihtVPN),
-       (theCompleteCyberSecurityCourseHackersExposed)-[:INCLUDES_MATERIAL]->(settingUpATestingEnvironmentUsingVirtualMachines),
-       (theCompleteCyberSecurityCourseHackersExposed)-[:INCLUDES_MATERIAL]->(operatingSystemSecurityAndPrivacyWindowsVSMacOSXVSLinux),
-       (theCompleteCyberSecurityCourseHackersExposed)-[:INCLUDES_MATERIAL]->(securityBugsAndVulnerabilities),
-       (theCompleteCyberSecurityCourseHackersExposed)-[:INCLUDES_MATERIAL]->(reducingThreatPrivilige),
-       (theCompleteCyberSecurityCourseHackersExposed)-[:INCLUDES_MATERIAL]->(socialEngineeringAndSocialMediaOffenceAndDefence),
-       (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:INCLUDES_MATERIAL]->(sketching),
-       (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:INCLUDES_MATERIAL]->(userFlows),
-       (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:INCLUDES_MATERIAL]->(sitemaps),
-       (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:INCLUDES_MATERIAL]->(wireframes),
-       (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:INCLUDES_MATERIAL]->(prototyping),
-       (wordPressForBeginnersCreateAWebsiteStepByStep)-[:INCLUDES_MATERIAL]->(photoGalleryPage),
-       (wordPressForBeginnersCreateAWebsiteStepByStep)-[:INCLUDES_MATERIAL]->(blogPosts),
-       (wordPressForBeginnersCreateAWebsiteStepByStep)-[:INCLUDES_MATERIAL]->(widgets),
-       (wordPressForBeginnersCreateAWebsiteStepByStep)-[:INCLUDES_MATERIAL]->(contactPage),
-       (wordPressForBeginnersCreateAWebsiteStepByStep)-[:INCLUDES_MATERIAL]->(usersAndSettings),
-       (learnFigmaUXUIDesignEssentialTraining)-[:INCLUDES_MATERIAL]->(learningTheFigmaInterface),
-       (learnFigmaUXUIDesignEssentialTraining)-[:INCLUDES_MATERIAL]->(addingAndEditingContent),
-       (learnFigmaUXUIDesignEssentialTraining)-[:INCLUDES_MATERIAL]->(completingTheDesign),
-       (learnFigmaUXUIDesignEssentialTraining)-[:INCLUDES_MATERIAL]->(prototypingSharingAndExporting);
+CREATE (reactTheCompleteGuide)-[:INCLUDES_MATERIAL]->(reactEssentialsDeepDive)
+CREATE (reactTheCompleteGuide)-[:INCLUDES_MATERIAL]->(reactEssentialsPracticeProject)
+CREATE (reactTheCompleteGuide)-[:INCLUDES_MATERIAL]->(stylingReactComponents)
+CREATE (reactTheCompleteGuide)-[:INCLUDES_MATERIAL]->(projectManagementAppWithComponentsStateRefsAndMore)
+CREATE (reactTheCompleteGuide)-[:INCLUDES_MATERIAL]->(practiceProjectBuildingAQuizApp)
+CREATE (theModernAngularBootcamp)-[:INCLUDES_MATERIAL]->(understandingAngularTemplateSyntax)
+CREATE (theModernAngularBootcamp)-[:INCLUDES_MATERIAL]->(masteringPipes)
+CREATE (theModernAngularBootcamp)-[:INCLUDES_MATERIAL]->(directivesInAngular)
+CREATE (theModernAngularBootcamp)-[:INCLUDES_MATERIAL]->(routingAndNavigationBetweenPages)
+CREATE (theModernAngularBootcamp)-[:INCLUDES_MATERIAL]->(lazyLoadingWithModules)
+CREATE (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(setupASPNETCoreMVCApplication)
+CREATE (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(manipulatingWebsiteViewsAndLayout)
+CREATE (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(addingADatabase)
+CREATE (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(customizingViewsAndElements)
+CREATE (aspNetCoreCrossPlatformDevelopment)-[:INCLUDES_MATERIAL]->(websiteAuthentication)
+CREATE (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(introductionToKotlin)
+CREATE (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(basicDifferencesBetweenKotlinAndJava)
+CREATE (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(dataTypesAndNullReferenceHandling)
+CREATE (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(lambdaExpressionsCollectionsAndGenerics)
+CREATE (kotlinForJavaDevelopers)-[:INCLUDES_MATERIAL]->(javaInteroperability)
+CREATE (anEntireMBAInOneCourse)-[:INCLUDES_MATERIAL]->(investorValuationTopicsAndDilution)
+CREATE (anEntireMBAInOneCourse)-[:INCLUDES_MATERIAL]->(financialAnalysis)
+CREATE (anEntireMBAInOneCourse)-[:INCLUDES_MATERIAL]->(managingCashFlow)
+CREATE (anEntireMBAInOneCourse)-[:INCLUDES_MATERIAL]->(financialCapitalAndSecuritiesLaw)
+CREATE (anEntireMBAInOneCourse)-[:INCLUDES_MATERIAL]->(projectingFinancialStatements)
+CREATE (strategicInnovationAndExecution)-[:INCLUDES_MATERIAL]->(managingInnovation)
+CREATE (strategicInnovationAndExecution)-[:INCLUDES_MATERIAL]->(definingGoals)
+CREATE (strategicInnovationAndExecution)-[:INCLUDES_MATERIAL]->(managingActions)
+CREATE (strategicInnovationAndExecution)-[:INCLUDES_MATERIAL]->(empoweringTeams)
+CREATE (strategicInnovationAndExecution)-[:INCLUDES_MATERIAL]->(monitoringResults)
+CREATE (theEssentialGuideToEntrepreneurship)-[:INCLUDES_MATERIAL]->(whatIsEntrepreneurship)
+CREATE (theEssentialGuideToEntrepreneurship)-[:INCLUDES_MATERIAL]->(overviewOfPlanning)
+CREATE (theEssentialGuideToEntrepreneurship)-[:INCLUDES_MATERIAL]->(yourBusinessPlan)
+CREATE (theEssentialGuideToEntrepreneurship)-[:INCLUDES_MATERIAL]->(craftingABusinessPlan)
+CREATE (theEssentialGuideToEntrepreneurship)-[:INCLUDES_MATERIAL]->(craftingAMarketingPlan)
+CREATE (introductionToFinanceAccountingModelingAndValuation)-[:INCLUDES_MATERIAL]->(incomeStatementAnalysis)
+CREATE (introductionToFinanceAccountingModelingAndValuation)-[:INCLUDES_MATERIAL]->(balanceSheetAnalysis)
+CREATE (introductionToFinanceAccountingModelingAndValuation)-[:INCLUDES_MATERIAL]->(priceToRevenue)
+CREATE (introductionToFinanceAccountingModelingAndValuation)-[:INCLUDES_MATERIAL]->(priceToEarningsAndAdditionalValuationMethodologies)
+CREATE (introductionToFinanceAccountingModelingAndValuation)-[:INCLUDES_MATERIAL]->(assessingFinancialsWithFormulas)
+CREATE (theCompleteCryptocurrencyCourse)-[:INCLUDES_MATERIAL]->(introductionToSecurityAndWallets)
+CREATE (theCompleteCryptocurrencyCourse)-[:INCLUDES_MATERIAL]->(introductionToBlockchain)
+CREATE (theCompleteCryptocurrencyCourse)-[:INCLUDES_MATERIAL]->(introductionToMining)
+CREATE (theCompleteCryptocurrencyCourse)-[:INCLUDES_MATERIAL]->(introductionToCryptocurrencies)
+CREATE (theCompleteCryptocurrencyCourse)-[:INCLUDES_MATERIAL]->(introToEthereumProsAndConsTransactingInvestingAndMining)
+CREATE (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(foundationsOfMacroeconomics)
+CREATE (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(aggregateDemandAndAggregateSupply)
+CREATE (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(macroeconomicEquilibrium)
+CREATE (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(lowUnemployment)
+CREATE (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(lowAndStableRateOfInflation)
+CREATE (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(economicGrowth)
+CREATE (macroeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(equityInTheDistributionOfIncome)
+CREATE (microeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(introductionToMicroeconomics)
+CREATE (microeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(demandSupplyAndMarketEquilibrium)
+CREATE (microeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(elasticities)
+CREATE (microeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(governmentIntervention)
+CREATE (microeconomicsAComprehensiveEconomicsCourse)-[:INCLUDES_MATERIAL]->(marketFailure)
+CREATE (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:INCLUDES_MATERIAL]->(buildYourHackingEnvironment)
+CREATE (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:INCLUDES_MATERIAL]->(linuxTerminalIncludingBasicFunctionalitiesAndCLI)
+CREATE (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:INCLUDES_MATERIAL]->(howCanYouUseTorToProtectYourAnonymityOnline)
+CREATE (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:INCLUDES_MATERIAL]->(proxyChainsForUsingProxyServersHidingYourIPAndObtainingAccess)
+CREATE (theCompleteEthicalHackingCourseBeginnerToAdvanced)-[:INCLUDES_MATERIAL]->(whatIsAVirtualPrivateNetworkAndHowYouCanStayAnonymousWihtVPN)
+CREATE (theCompleteCyberSecurityCourseHackersExposed)-[:INCLUDES_MATERIAL]->(settingUpATestingEnvironmentUsingVirtualMachines)
+CREATE (theCompleteCyberSecurityCourseHackersExposed)-[:INCLUDES_MATERIAL]->(operatingSystemSecurityAndPrivacyWindowsVSMacOSXVSLinux)
+CREATE (theCompleteCyberSecurityCourseHackersExposed)-[:INCLUDES_MATERIAL]->(securityBugsAndVulnerabilities)
+CREATE (theCompleteCyberSecurityCourseHackersExposed)-[:INCLUDES_MATERIAL]->(reducingThreatPrivilige)
+CREATE (theCompleteCyberSecurityCourseHackersExposed)-[:INCLUDES_MATERIAL]->(socialEngineeringAndSocialMediaOffenceAndDefence)
+CREATE (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:INCLUDES_MATERIAL]->(sketching)
+CREATE (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:INCLUDES_MATERIAL]->(userFlows)
+CREATE (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:INCLUDES_MATERIAL]->(sitemaps)
+CREATE (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:INCLUDES_MATERIAL]->(wireframes)
+CREATE (completeWebAndMobileDesignerUXUIFigmaAndMore)-[:INCLUDES_MATERIAL]->(prototyping)
+CREATE (wordPressForBeginnersCreateAWebsiteStepByStep)-[:INCLUDES_MATERIAL]->(photoGalleryPage)
+CREATE (wordPressForBeginnersCreateAWebsiteStepByStep)-[:INCLUDES_MATERIAL]->(blogPosts)
+CREATE (wordPressForBeginnersCreateAWebsiteStepByStep)-[:INCLUDES_MATERIAL]->(widgets)
+CREATE (wordPressForBeginnersCreateAWebsiteStepByStep)-[:INCLUDES_MATERIAL]->(contactPage)
+CREATE (wordPressForBeginnersCreateAWebsiteStepByStep)-[:INCLUDES_MATERIAL]->(usersAndSettings)
+CREATE (learnFigmaUXUIDesignEssentialTraining)-[:INCLUDES_MATERIAL]->(learningTheFigmaInterface)
+CREATE (learnFigmaUXUIDesignEssentialTraining)-[:INCLUDES_MATERIAL]->(addingAndEditingContent)
+CREATE (learnFigmaUXUIDesignEssentialTraining)-[:INCLUDES_MATERIAL]->(completingTheDesign)
+CREATE (learnFigmaUXUIDesignEssentialTraining)-[:INCLUDES_MATERIAL]->(prototypingSharingAndExporting)
 
-CREATE (johnDoe)-[:ENROLLED_FOR_COURSE]->(reactTheCompleteGuide),
-       (johnDoe)-[:ENROLLED_FOR_COURSE]->(theModernAngularBootcamp),
-       (johnDoe)-[:ENROLLED_FOR_COURSE]->(kotlinForJavaDevelopers),
-       (janeSmith)-[:ENROLLED_FOR_COURSE]->(theModernAngularBootcamp),
-       (janeSmith)-[:ENROLLED_FOR_COURSE]->(aspNetCoreCrossPlatformDevelopment),
-       (alexJohnson)-[:ENROLLED_FOR_COURSE]->(anEntireMBAInOneCourse),
-       (alexJohnson)-[:ENROLLED_FOR_COURSE]->(theEssentialGuideToEntrepreneurship),
-       (alexJohnson)-[:ENROLLED_FOR_COURSE]->(introductionToFinanceAccountingModelingAndValuation),
-       (emilyBrown)-[:ENROLLED_FOR_COURSE]->(strategicInnovationAndExecution),
-       (michaelDavis)-[:ENROLLED_FOR_COURSE]->(theCompleteCryptocurrencyCourse),
-       (sarahWilson)-[:ENROLLED_FOR_COURSE]->(macroeconomicsAComprehensiveEconomicsCourse),
-       (sarahWilson)-[:ENROLLED_FOR_COURSE]->(microeconomicsAComprehensiveEconomicsCourse),
-       (ryanTaylor)-[:ENROLLED_FOR_COURSE]->(macroeconomicsAComprehensiveEconomicsCourse),
-       (ryanTaylor)-[:ENROLLED_FOR_COURSE]->(microeconomicsAComprehensiveEconomicsCourse),
-       (oliviaMartinez)-[:ENROLLED_FOR_COURSE]->(theCompleteEthicalHackingCourseBeginnerToAdvanced),
-       (oliviaMartinez)-[:ENROLLED_FOR_COURSE]->(theCompleteCyberSecurityCourseHackersExposed),
-       (danielGarcia)-[:ENROLLED_FOR_COURSE]->(completeWebAndMobileDesignerUXUIFigmaAndMore),
-       (danielGarcia)-[:ENROLLED_FOR_COURSE]->(wordPressForBeginnersCreateAWebsiteStepByStep),
-       (samanthaAnderson)-[:ENROLLED_FOR_COURSE]->(completeWebAndMobileDesignerUXUIFigmaAndMore),
-       (samanthaAnderson)-[:ENROLLED_FOR_COURSE]->(learnFigmaUXUIDesignEssentialTraining);
+CREATE (johnDoe)-[:ENROLLED_FOR_COURSE]->(reactTheCompleteGuide)
+CREATE (johnDoe)-[:ENROLLED_FOR_COURSE]->(theModernAngularBootcamp)
+CREATE (johnDoe)-[:ENROLLED_FOR_COURSE]->(kotlinForJavaDevelopers)
+CREATE (janeSmith)-[:ENROLLED_FOR_COURSE]->(theModernAngularBootcamp)
+CREATE (janeSmith)-[:ENROLLED_FOR_COURSE]->(aspNetCoreCrossPlatformDevelopment)
+CREATE (alexJohnson)-[:ENROLLED_FOR_COURSE]->(anEntireMBAInOneCourse)
+CREATE (alexJohnson)-[:ENROLLED_FOR_COURSE]->(theEssentialGuideToEntrepreneurship)
+CREATE (alexJohnson)-[:ENROLLED_FOR_COURSE]->(introductionToFinanceAccountingModelingAndValuation)
+CREATE (emilyBrown)-[:ENROLLED_FOR_COURSE]->(strategicInnovationAndExecution)
+CREATE (michaelDavis)-[:ENROLLED_FOR_COURSE]->(theCompleteCryptocurrencyCourse)
+CREATE (sarahWilson)-[:ENROLLED_FOR_COURSE]->(macroeconomicsAComprehensiveEconomicsCourse)
+CREATE (sarahWilson)-[:ENROLLED_FOR_COURSE]->(microeconomicsAComprehensiveEconomicsCourse)
+CREATE (ryanTaylor)-[:ENROLLED_FOR_COURSE]->(macroeconomicsAComprehensiveEconomicsCourse)
+CREATE (ryanTaylor)-[:ENROLLED_FOR_COURSE]->(microeconomicsAComprehensiveEconomicsCourse)
+CREATE (oliviaMartinez)-[:ENROLLED_FOR_COURSE]->(theCompleteEthicalHackingCourseBeginnerToAdvanced)
+CREATE (oliviaMartinez)-[:ENROLLED_FOR_COURSE]->(theCompleteCyberSecurityCourseHackersExposed)
+CREATE (danielGarcia)-[:ENROLLED_FOR_COURSE]->(completeWebAndMobileDesignerUXUIFigmaAndMore)
+CREATE (danielGarcia)-[:ENROLLED_FOR_COURSE]->(wordPressForBeginnersCreateAWebsiteStepByStep)
+CREATE (samanthaAnderson)-[:ENROLLED_FOR_COURSE]->(completeWebAndMobileDesignerUXUIFigmaAndMore)
+CREATE (samanthaAnderson)-[:ENROLLED_FOR_COURSE]->(learnFigmaUXUIDesignEssentialTraining)
 
-CREATE (maximilianSchwarzmüller)-[:UPLOADED_MATERIAL]->(reactEssentialsDeepDive),
-       (maximilianSchwarzmüller)-[:UPLOADED_MATERIAL]->(reactEssentialsPracticeProject),
-       (maximilianSchwarzmüller)-[:UPLOADED_MATERIAL]->(stylingReactComponents),
-       (maximilianSchwarzmüller)-[:UPLOADED_MATERIAL]->(projectManagementAppWithComponentsStateRefsAndMore),
-       (maximilianSchwarzmüller)-[:UPLOADED_MATERIAL]->(practiceProjectBuildingAQuizApp),
-       (stephenGrinder)-[:UPLOADED_MATERIAL]->(understandingAngularTemplateSyntax),
-       (stephenGrinder)-[:UPLOADED_MATERIAL]->(masteringPipes),
-       (stephenGrinder)-[:UPLOADED_MATERIAL]->(directivesInAngular),
-       (stephenGrinder)-[:UPLOADED_MATERIAL]->(routingAndNavigationBetweenPages),
-       (stephenGrinder)-[:UPLOADED_MATERIAL]->(lazyLoadingWithModules),
-       (trevoirWilliams)-[:UPLOADED_MATERIAL]->(setupASPNETCoreMVCApplication),
-       (trevoirWilliams)-[:UPLOADED_MATERIAL]->(manipulatingWebsiteViewsAndLayout),
-       (andriiPiatakha)-[:UPLOADED_MATERIAL]->(addingADatabase),
-       (andriiPiatakha)-[:UPLOADED_MATERIAL]->(customizingViewsAndElements),
-       (trevoirWilliams)-[:UPLOADED_MATERIAL]->(websiteAuthentication),
-       (timBuchalka)-[:UPLOADED_MATERIAL]->(introductionToKotlin),
-       (timBuchalka)-[:UPLOADED_MATERIAL]->(basicDifferencesBetweenKotlinAndJava),
-       (goranLochert)-[:UPLOADED_MATERIAL]->(dataTypesAndNullReferenceHandling),
-       (timBuchalka)-[:UPLOADED_MATERIAL]->(lambdaExpressionsCollectionsAndGenerics),
-       (goranLochert)-[:UPLOADED_MATERIAL]->(javaInteroperability),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(investorValuationTopicsAndDilution),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(financialAnalysis),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(managingCashFlow),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(financialCapitalAndSecuritiesLaw),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(projectingFinancialStatements),
-       (davidOSullivan)-[:UPLOADED_MATERIAL]->(managingInnovation),
-       (davidOSullivan)-[:UPLOADED_MATERIAL]->(definingGoals),
-       (davidOSullivan)-[:UPLOADED_MATERIAL]->(managingActions),
-       (davidOSullivan)-[:UPLOADED_MATERIAL]->(empoweringTeams),
-       (davidOSullivan)-[:UPLOADED_MATERIAL]->(monitoringResults),
-       (laraFabans)-[:UPLOADED_MATERIAL]->(whatIsEntrepreneurship),
-       (boomyTokan)-[:UPLOADED_MATERIAL]->(overviewOfPlanning),
-       (laraFabans)-[:UPLOADED_MATERIAL]->(yourBusinessPlan),
-       (boomyTokan)-[:UPLOADED_MATERIAL]->(craftingABusinessPlan),
-       (boomyTokan)-[:UPLOADED_MATERIAL]->(craftingAMarketingPlan),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(incomeStatementAnalysis),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(balanceSheetAnalysis),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(priceToRevenue),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(priceToEarningsAndAdditionalValuationMethodologies),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(assessingFinancialsWithFormulas),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(introductionToSecurityAndWallets),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(introductionToBlockchain),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(introductionToMining),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(introductionToCryptocurrencies),
-       (chrisHaroun)-[:UPLOADED_MATERIAL]->(introToEthereumProsAndConsTransactingInvestingAndMining),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(foundationsOfMacroeconomics),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(aggregateDemandAndAggregateSupply),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(macroeconomicEquilibrium),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(lowUnemployment),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(lowAndStableRateOfInflation),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(economicGrowth),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(equityInTheDistributionOfIncome),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(introductionToMicroeconomics),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(demandSupplyAndMarketEquilibrium),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(elasticities),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(governmentIntervention),
-       (bradCartwright)-[:UPLOADED_MATERIAL]->(marketFailure),
-       (erminKreponic)-[:UPLOADED_MATERIAL]->(buildYourHackingEnvironment),
-       (aldinOmerdic)-[:UPLOADED_MATERIAL]->(linuxTerminalIncludingBasicFunctionalitiesAndCLI),
-       (aldinOmerdic)-[:UPLOADED_MATERIAL]->(howCanYouUseTorToProtectYourAnonymityOnline),
-       (aldinOmerdic)-[:UPLOADED_MATERIAL]->(proxyChainsForUsingProxyServersHidingYourIPAndObtainingAccess),
-       (erminKreponic)-[:UPLOADED_MATERIAL]->(whatIsAVirtualPrivateNetworkAndHowYouCanStayAnonymousWihtVPN),
-       (nathanHouse)-[:UPLOADED_MATERIAL]->(settingUpATestingEnvironmentUsingVirtualMachines),
-       (nathanHouse)-[:UPLOADED_MATERIAL]->(operatingSystemSecurityAndPrivacyWindowsVSMacOSXVSLinux),
-       (nathanHouse)-[:UPLOADED_MATERIAL]->(securityBugsAndVulnerabilities),
-       (nathanHouse)-[:UPLOADED_MATERIAL]->(reducingThreatPrivilige),
-       (nathanHouse)-[:UPLOADED_MATERIAL]->(socialEngineeringAndSocialMediaOffenceAndDefence),
-       (andreiNeagoie)-[:UPLOADED_MATERIAL]->(sketching),
-       (andreiNeagoie)-[:UPLOADED_MATERIAL]->(userFlows),
-       (andreiNeagoie)-[:UPLOADED_MATERIAL]->(sitemaps),
-       (danielSchifano)-[:UPLOADED_MATERIAL]->(wireframes),
-       (danielSchifano)-[:UPLOADED_MATERIAL]->(prototyping),
-       (bradSchiff)-[:UPLOADED_MATERIAL]->(photoGalleryPage),
-       (bradSchiff)-[:UPLOADED_MATERIAL]->(blogPosts),
-       (bradSchiff)-[:UPLOADED_MATERIAL]->(widgets),
-       (bradSchiff)-[:UPLOADED_MATERIAL]->(contactPage),
-       (bradSchiff)-[:UPLOADED_MATERIAL]->(usersAndSettings),
-       (calebKingston)-[:UPLOADED_MATERIAL]->(learningTheFigmaInterface),
-       (calebKingston)-[:UPLOADED_MATERIAL]->(addingAndEditingContent),
-       (calebKingston)-[:UPLOADED_MATERIAL]->(completingTheDesign),
-       (calebKingston)-[:UPLOADED_MATERIAL]->(prototypingSharingAndExporting);
+CREATE (maximilianSchwarzmüller)-[:UPLOADED_MATERIAL]->(reactEssentialsDeepDive)
+CREATE (maximilianSchwarzmüller)-[:UPLOADED_MATERIAL]->(reactEssentialsPracticeProject)
+CREATE (maximilianSchwarzmüller)-[:UPLOADED_MATERIAL]->(stylingReactComponents)
+CREATE (maximilianSchwarzmüller)-[:UPLOADED_MATERIAL]->(projectManagementAppWithComponentsStateRefsAndMore)
+CREATE (maximilianSchwarzmüller)-[:UPLOADED_MATERIAL]->(practiceProjectBuildingAQuizApp)
+CREATE (stephenGrinder)-[:UPLOADED_MATERIAL]->(understandingAngularTemplateSyntax)
+CREATE (stephenGrinder)-[:UPLOADED_MATERIAL]->(masteringPipes)
+CREATE (stephenGrinder)-[:UPLOADED_MATERIAL]->(directivesInAngular)
+CREATE (stephenGrinder)-[:UPLOADED_MATERIAL]->(routingAndNavigationBetweenPages)
+CREATE (stephenGrinder)-[:UPLOADED_MATERIAL]->(lazyLoadingWithModules)
+CREATE (trevoirWilliams)-[:UPLOADED_MATERIAL]->(setupASPNETCoreMVCApplication)
+CREATE (trevoirWilliams)-[:UPLOADED_MATERIAL]->(manipulatingWebsiteViewsAndLayout)
+CREATE (andriiPiatakha)-[:UPLOADED_MATERIAL]->(addingADatabase)
+CREATE (andriiPiatakha)-[:UPLOADED_MATERIAL]->(customizingViewsAndElements)
+CREATE (trevoirWilliams)-[:UPLOADED_MATERIAL]->(websiteAuthentication)
+CREATE (timBuchalka)-[:UPLOADED_MATERIAL]->(introductionToKotlin)
+CREATE (timBuchalka)-[:UPLOADED_MATERIAL]->(basicDifferencesBetweenKotlinAndJava)
+CREATE (goranLochert)-[:UPLOADED_MATERIAL]->(dataTypesAndNullReferenceHandling)
+CREATE (timBuchalka)-[:UPLOADED_MATERIAL]->(lambdaExpressionsCollectionsAndGenerics)
+CREATE (goranLochert)-[:UPLOADED_MATERIAL]->(javaInteroperability)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(investorValuationTopicsAndDilution)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(financialAnalysis)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(managingCashFlow)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(financialCapitalAndSecuritiesLaw)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(projectingFinancialStatements)
+CREATE (davidOSullivan)-[:UPLOADED_MATERIAL]->(managingInnovation)
+CREATE (davidOSullivan)-[:UPLOADED_MATERIAL]->(definingGoals)
+CREATE (davidOSullivan)-[:UPLOADED_MATERIAL]->(managingActions)
+CREATE (davidOSullivan)-[:UPLOADED_MATERIAL]->(empoweringTeams)
+CREATE (davidOSullivan)-[:UPLOADED_MATERIAL]->(monitoringResults)
+CREATE (laraFabans)-[:UPLOADED_MATERIAL]->(whatIsEntrepreneurship)
+CREATE (boomyTokan)-[:UPLOADED_MATERIAL]->(overviewOfPlanning)
+CREATE (laraFabans)-[:UPLOADED_MATERIAL]->(yourBusinessPlan)
+CREATE (boomyTokan)-[:UPLOADED_MATERIAL]->(craftingABusinessPlan)
+CREATE (boomyTokan)-[:UPLOADED_MATERIAL]->(craftingAMarketingPlan)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(incomeStatementAnalysis)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(balanceSheetAnalysis)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(priceToRevenue)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(priceToEarningsAndAdditionalValuationMethodologies)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(assessingFinancialsWithFormulas)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(introductionToSecurityAndWallets)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(introductionToBlockchain)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(introductionToMining)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(introductionToCryptocurrencies)
+CREATE (chrisHaroun)-[:UPLOADED_MATERIAL]->(introToEthereumProsAndConsTransactingInvestingAndMining)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(foundationsOfMacroeconomics)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(aggregateDemandAndAggregateSupply)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(macroeconomicEquilibrium)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(lowUnemployment)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(lowAndStableRateOfInflation)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(economicGrowth)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(equityInTheDistributionOfIncome)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(introductionToMicroeconomics)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(demandSupplyAndMarketEquilibrium)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(elasticities)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(governmentIntervention)
+CREATE (bradCartwright)-[:UPLOADED_MATERIAL]->(marketFailure)
+CREATE (erminKreponic)-[:UPLOADED_MATERIAL]->(buildYourHackingEnvironment)
+CREATE (aldinOmerdic)-[:UPLOADED_MATERIAL]->(linuxTerminalIncludingBasicFunctionalitiesAndCLI)
+CREATE (aldinOmerdic)-[:UPLOADED_MATERIAL]->(howCanYouUseTorToProtectYourAnonymityOnline)
+CREATE (aldinOmerdic)-[:UPLOADED_MATERIAL]->(proxyChainsForUsingProxyServersHidingYourIPAndObtainingAccess)
+CREATE (erminKreponic)-[:UPLOADED_MATERIAL]->(whatIsAVirtualPrivateNetworkAndHowYouCanStayAnonymousWihtVPN)
+CREATE (nathanHouse)-[:UPLOADED_MATERIAL]->(settingUpATestingEnvironmentUsingVirtualMachines)
+CREATE (nathanHouse)-[:UPLOADED_MATERIAL]->(operatingSystemSecurityAndPrivacyWindowsVSMacOSXVSLinux)
+CREATE (nathanHouse)-[:UPLOADED_MATERIAL]->(securityBugsAndVulnerabilities)
+CREATE (nathanHouse)-[:UPLOADED_MATERIAL]->(reducingThreatPrivilige)
+CREATE (nathanHouse)-[:UPLOADED_MATERIAL]->(socialEngineeringAndSocialMediaOffenceAndDefence)
+CREATE (andreiNeagoie)-[:UPLOADED_MATERIAL]->(sketching)
+CREATE (andreiNeagoie)-[:UPLOADED_MATERIAL]->(userFlows)
+CREATE (andreiNeagoie)-[:UPLOADED_MATERIAL]->(sitemaps)
+CREATE (danielSchifano)-[:UPLOADED_MATERIAL]->(wireframes)
+CREATE (danielSchifano)-[:UPLOADED_MATERIAL]->(prototyping)
+CREATE (bradSchiff)-[:UPLOADED_MATERIAL]->(photoGalleryPage)
+CREATE (bradSchiff)-[:UPLOADED_MATERIAL]->(blogPosts)
+CREATE (bradSchiff)-[:UPLOADED_MATERIAL]->(widgets)
+CREATE (bradSchiff)-[:UPLOADED_MATERIAL]->(contactPage)
+CREATE (bradSchiff)-[:UPLOADED_MATERIAL]->(usersAndSettings)
+CREATE (calebKingston)-[:UPLOADED_MATERIAL]->(learningTheFigmaInterface)
+CREATE (calebKingston)-[:UPLOADED_MATERIAL]->(addingAndEditingContent)
+CREATE (calebKingston)-[:UPLOADED_MATERIAL]->(completingTheDesign)
+CREATE (calebKingston)-[:UPLOADED_MATERIAL]->(prototypingSharingAndExporting)
 
-CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(reactEssentialsDeepDive),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(reactEssentialsPracticeProject),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(stylingReactComponents),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(projectManagementAppWithComponentsStateRefsAndMore),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(practiceProjectBuildingAQuizApp),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(understandingAngularTemplateSyntax),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(masteringPipes),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(directivesInAngular),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(routingAndNavigationBetweenPages),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(lazyLoadingWithModules),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(introductionToKotlin),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(basicDifferencesBetweenKotlinAndJava),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(dataTypesAndNullReferenceHandling),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(lambdaExpressionsCollectionsAndGenerics),
-       (johnDoe)-[:DOWNLOADED_MATERIAL]->(javaInteroperability),
-       (janeSmith)-[:DOWNLOADED_MATERIAL]->(understandingAngularTemplateSyntax),
-       (janeSmith)-[:DOWNLOADED_MATERIAL]->(masteringPipes),
-       (janeSmith)-[:DOWNLOADED_MATERIAL]->(directivesInAngular),
-       (janeSmith)-[:DOWNLOADED_MATERIAL]->(routingAndNavigationBetweenPages),
-       (janeSmith)-[:DOWNLOADED_MATERIAL]->(lazyLoadingWithModules),
-       (janeSmith)-[:DOWNLOADED_MATERIAL]->(setupASPNETCoreMVCApplication),
-       (janeSmith)-[:DOWNLOADED_MATERIAL]->(manipulatingWebsiteViewsAndLayout),
-       (janeSmith)-[:DOWNLOADED_MATERIAL]->(addingADatabase),
-       (janeSmith)-[:DOWNLOADED_MATERIAL]->(customizingViewsAndElements),
-       (janeSmith)-[:DOWNLOADED_MATERIAL]->(websiteAuthentication),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(investorValuationTopicsAndDilution),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(financialAnalysis),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(managingCashFlow),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(financialCapitalAndSecuritiesLaw),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(projectingFinancialStatements),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(whatIsEntrepreneurship),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(overviewOfPlanning),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(yourBusinessPlan),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(craftingABusinessPlan),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(craftingAMarketingPlan),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(incomeStatementAnalysis),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(balanceSheetAnalysis),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(priceToRevenue),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(priceToEarningsAndAdditionalValuationMethodologies),
-       (alexJohnson)-[:DOWNLOADED_MATERIAL]->(assessingFinancialsWithFormulas),
-       (emilyBrown)-[:DOWNLOADED_MATERIAL]->(managingInnovation),
-       (emilyBrown)-[:DOWNLOADED_MATERIAL]->(definingGoals),
-       (emilyBrown)-[:DOWNLOADED_MATERIAL]->(managingActions),
-       (emilyBrown)-[:DOWNLOADED_MATERIAL]->(empoweringTeams),
-       (emilyBrown)-[:DOWNLOADED_MATERIAL]->(monitoringResults),
-       (michaelDavis)-[:DOWNLOADED_MATERIAL]->(introductionToSecurityAndWallets),
-       (michaelDavis)-[:DOWNLOADED_MATERIAL]->(introductionToBlockchain),
-       (michaelDavis)-[:DOWNLOADED_MATERIAL]->(introductionToMining),
-       (michaelDavis)-[:DOWNLOADED_MATERIAL]->(introductionToCryptocurrencies),
-       (michaelDavis)-[:DOWNLOADED_MATERIAL]->(introToEthereumProsAndConsTransactingInvestingAndMining),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(foundationsOfMacroeconomics),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(aggregateDemandAndAggregateSupply),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(macroeconomicEquilibrium),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(lowUnemployment),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(lowAndStableRateOfInflation),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(economicGrowth),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(equityInTheDistributionOfIncome),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(introductionToMicroeconomics),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(demandSupplyAndMarketEquilibrium),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(elasticities),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(governmentIntervention),
-       (sarahWilson)-[:DOWNLOADED_MATERIAL]->(marketFailure),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(foundationsOfMacroeconomics),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(aggregateDemandAndAggregateSupply),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(macroeconomicEquilibrium),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(lowUnemployment),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(lowAndStableRateOfInflation),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(economicGrowth),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(equityInTheDistributionOfIncome),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(introductionToMicroeconomics),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(demandSupplyAndMarketEquilibrium),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(elasticities),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(governmentIntervention),
-       (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(marketFailure),
-       (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(buildYourHackingEnvironment),
-       (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(linuxTerminalIncludingBasicFunctionalitiesAndCLI),
-       (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(howCanYouUseTorToProtectYourAnonymityOnline),
-       (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(proxyChainsForUsingProxyServersHidingYourIPAndObtainingAccess),
-       (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(whatIsAVirtualPrivateNetworkAndHowYouCanStayAnonymousWihtVPN),
-       (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(settingUpATestingEnvironmentUsingVirtualMachines),
-       (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(operatingSystemSecurityAndPrivacyWindowsVSMacOSXVSLinux),
-       (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(securityBugsAndVulnerabilities),
-       (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(reducingThreatPrivilige),
-       (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(socialEngineeringAndSocialMediaOffenceAndDefence),
-       (danielGarcia)-[:DOWNLOADED_MATERIAL]->(sketching),
-       (danielGarcia)-[:DOWNLOADED_MATERIAL]->(userFlows),
-       (danielGarcia)-[:DOWNLOADED_MATERIAL]->(sitemaps),
-       (danielGarcia)-[:DOWNLOADED_MATERIAL]->(wireframes),
-       (danielGarcia)-[:DOWNLOADED_MATERIAL]->(prototyping),
-       (danielGarcia)-[:DOWNLOADED_MATERIAL]->(photoGalleryPage),
-       (danielGarcia)-[:DOWNLOADED_MATERIAL]->(blogPosts),
-       (danielGarcia)-[:DOWNLOADED_MATERIAL]->(widgets),
-       (danielGarcia)-[:DOWNLOADED_MATERIAL]->(contactPage),
-       (danielGarcia)-[:DOWNLOADED_MATERIAL]->(usersAndSettings),
-       (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(sketching),
-       (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(userFlows),
-       (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(sitemaps),
-       (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(wireframes),
-       (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(prototyping),
-       (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(learningTheFigmaInterface),
-       (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(addingAndEditingContent),
-       (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(completingTheDesign),
-       (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(prototypingSharingAndExporting);
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(reactEssentialsDeepDive)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(reactEssentialsPracticeProject)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(stylingReactComponents)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(projectManagementAppWithComponentsStateRefsAndMore)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(practiceProjectBuildingAQuizApp)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(understandingAngularTemplateSyntax)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(masteringPipes)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(directivesInAngular)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(routingAndNavigationBetweenPages)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(lazyLoadingWithModules)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(introductionToKotlin)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(basicDifferencesBetweenKotlinAndJava)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(dataTypesAndNullReferenceHandling)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(lambdaExpressionsCollectionsAndGenerics)
+CREATE (johnDoe)-[:DOWNLOADED_MATERIAL]->(javaInteroperability)
+CREATE (janeSmith)-[:DOWNLOADED_MATERIAL]->(understandingAngularTemplateSyntax)
+CREATE (janeSmith)-[:DOWNLOADED_MATERIAL]->(masteringPipes)
+CREATE (janeSmith)-[:DOWNLOADED_MATERIAL]->(directivesInAngular)
+CREATE (janeSmith)-[:DOWNLOADED_MATERIAL]->(routingAndNavigationBetweenPages)
+CREATE (janeSmith)-[:DOWNLOADED_MATERIAL]->(lazyLoadingWithModules)
+CREATE (janeSmith)-[:DOWNLOADED_MATERIAL]->(setupASPNETCoreMVCApplication)
+CREATE (janeSmith)-[:DOWNLOADED_MATERIAL]->(manipulatingWebsiteViewsAndLayout)
+CREATE (janeSmith)-[:DOWNLOADED_MATERIAL]->(addingADatabase)
+CREATE (janeSmith)-[:DOWNLOADED_MATERIAL]->(customizingViewsAndElements)
+CREATE (janeSmith)-[:DOWNLOADED_MATERIAL]->(websiteAuthentication)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(investorValuationTopicsAndDilution)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(financialAnalysis)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(managingCashFlow)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(financialCapitalAndSecuritiesLaw)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(projectingFinancialStatements)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(whatIsEntrepreneurship)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(overviewOfPlanning)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(yourBusinessPlan)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(craftingABusinessPlan)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(craftingAMarketingPlan)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(incomeStatementAnalysis)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(balanceSheetAnalysis)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(priceToRevenue)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(priceToEarningsAndAdditionalValuationMethodologies)
+CREATE (alexJohnson)-[:DOWNLOADED_MATERIAL]->(assessingFinancialsWithFormulas)
+CREATE (emilyBrown)-[:DOWNLOADED_MATERIAL]->(managingInnovation)
+CREATE (emilyBrown)-[:DOWNLOADED_MATERIAL]->(definingGoals)
+CREATE (emilyBrown)-[:DOWNLOADED_MATERIAL]->(managingActions)
+CREATE (emilyBrown)-[:DOWNLOADED_MATERIAL]->(empoweringTeams)
+CREATE (emilyBrown)-[:DOWNLOADED_MATERIAL]->(monitoringResults)
+CREATE (michaelDavis)-[:DOWNLOADED_MATERIAL]->(introductionToSecurityAndWallets)
+CREATE (michaelDavis)-[:DOWNLOADED_MATERIAL]->(introductionToBlockchain)
+CREATE (michaelDavis)-[:DOWNLOADED_MATERIAL]->(introductionToMining)
+CREATE (michaelDavis)-[:DOWNLOADED_MATERIAL]->(introductionToCryptocurrencies)
+CREATE (michaelDavis)-[:DOWNLOADED_MATERIAL]->(introToEthereumProsAndConsTransactingInvestingAndMining)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(foundationsOfMacroeconomics)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(aggregateDemandAndAggregateSupply)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(macroeconomicEquilibrium)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(lowUnemployment)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(lowAndStableRateOfInflation)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(economicGrowth)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(equityInTheDistributionOfIncome)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(introductionToMicroeconomics)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(demandSupplyAndMarketEquilibrium)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(elasticities)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(governmentIntervention)
+CREATE (sarahWilson)-[:DOWNLOADED_MATERIAL]->(marketFailure)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(foundationsOfMacroeconomics)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(aggregateDemandAndAggregateSupply)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(macroeconomicEquilibrium)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(lowUnemployment)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(lowAndStableRateOfInflation)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(economicGrowth)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(equityInTheDistributionOfIncome)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(introductionToMicroeconomics)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(demandSupplyAndMarketEquilibrium)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(elasticities)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(governmentIntervention)
+CREATE (ryanTaylor)-[:DOWNLOADED_MATERIAL]->(marketFailure)
+CREATE (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(buildYourHackingEnvironment)
+CREATE (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(linuxTerminalIncludingBasicFunctionalitiesAndCLI)
+CREATE (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(howCanYouUseTorToProtectYourAnonymityOnline)
+CREATE (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(proxyChainsForUsingProxyServersHidingYourIPAndObtainingAccess)
+CREATE (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(whatIsAVirtualPrivateNetworkAndHowYouCanStayAnonymousWihtVPN)
+CREATE (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(settingUpATestingEnvironmentUsingVirtualMachines)
+CREATE (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(operatingSystemSecurityAndPrivacyWindowsVSMacOSXVSLinux)
+CREATE (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(securityBugsAndVulnerabilities)
+CREATE (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(reducingThreatPrivilige)
+CREATE (oliviaMartinez)-[:DOWNLOADED_MATERIAL]->(socialEngineeringAndSocialMediaOffenceAndDefence)
+CREATE (danielGarcia)-[:DOWNLOADED_MATERIAL]->(sketching)
+CREATE (danielGarcia)-[:DOWNLOADED_MATERIAL]->(userFlows)
+CREATE (danielGarcia)-[:DOWNLOADED_MATERIAL]->(sitemaps)
+CREATE (danielGarcia)-[:DOWNLOADED_MATERIAL]->(wireframes)
+CREATE (danielGarcia)-[:DOWNLOADED_MATERIAL]->(prototyping)
+CREATE (danielGarcia)-[:DOWNLOADED_MATERIAL]->(photoGalleryPage)
+CREATE (danielGarcia)-[:DOWNLOADED_MATERIAL]->(blogPosts)
+CREATE (danielGarcia)-[:DOWNLOADED_MATERIAL]->(widgets)
+CREATE (danielGarcia)-[:DOWNLOADED_MATERIAL]->(contactPage)
+CREATE (danielGarcia)-[:DOWNLOADED_MATERIAL]->(usersAndSettings)
+CREATE (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(sketching)
+CREATE (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(userFlows)
+CREATE (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(sitemaps)
+CREATE (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(wireframes)
+CREATE (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(prototyping)
+CREATE (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(learningTheFigmaInterface)
+CREATE (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(addingAndEditingContent)
+CREATE (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(completingTheDesign)
+CREATE (samanthaAnderson)-[:DOWNLOADED_MATERIAL]->(prototypingSharingAndExporting)
 
-CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(reactEssentialsDeepDive),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(reactEssentialsPracticeProject),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was up-to-date and relevant to current industry practices." }]->(stylingReactComponents),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 3, comment: "Mediocre practice project" }]->(projectManagementAppWithComponentsStateRefsAndMore),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 2, comment: "The practice project must be of better quality" }]->(practiceProjectBuildingAQuizApp),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "Excellent content!" }]->(understandingAngularTemplateSyntax),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 4, comment: "Well-structured content" }]->(masteringPipes),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 1, comment: "The pacing was too fast, struggled to keep up at times." }]->(directivesInAngular),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 4, comment: "Well-structured content" }]->(routingAndNavigationBetweenPages),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 3, comment: "Could benefit from more visual aids to aid understanding." }]->(lazyLoadingWithModules),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The instructor's explanations were clear and easy to follow." }]->(introductionToKotlin),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 4, comment: "The content was well-organized and structured logically." }]->(basicDifferencesBetweenKotlinAndJava),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The instructor's explanations were clear and easy to follow." }]->(dataTypesAndNullReferenceHandling),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(lambdaExpressionsCollectionsAndGenerics),
-       (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material was up-to-date and relevant to current industry practices." }]->(javaInteroperability),
-       (janeSmith)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(understandingAngularTemplateSyntax),
-       (janeSmith)-[:EVALUATED_MATERIAL { rating: 3, comment: "The pacing was too fast, struggled to keep up at times." }]->(masteringPipes),
-       (janeSmith)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material was engaging and kept me interested throughout" }]->(directivesInAngular),
-       (janeSmith)-[:EVALUATED_MATERIAL { rating: 2, comment: "Could use more in-depth coverage on certain concepts." }]->(routingAndNavigationBetweenPages),
-       (janeSmith)-[:EVALUATED_MATERIAL { rating: 4, comment: "The examples provided were very practical and useful." }]->(lazyLoadingWithModules),
-       (janeSmith)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material was engaging and kept me interested throughout." }]->(setupASPNETCoreMVCApplication),
-       (janeSmith)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(manipulatingWebsiteViewsAndLayout),
-       (janeSmith)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(addingADatabase),
-       (janeSmith)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(customizingViewsAndElements),
-       (janeSmith)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(websiteAuthentication),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(investorValuationTopicsAndDilution),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(financialAnalysis),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was engaging and kept me interested throughout." }]->(managingCashFlow),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was engaging and kept me interested throughout." }]->(financialCapitalAndSecuritiesLaw),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was engaging and kept me interested throughout." }]->(projectingFinancialStatements),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(whatIsEntrepreneurship),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(overviewOfPlanning),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(yourBusinessPlan),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(craftingABusinessPlan),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(craftingAMarketingPlan),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(incomeStatementAnalysis),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(balanceSheetAnalysis),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(priceToRevenue),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(priceToEarningsAndAdditionalValuationMethodologies),
-       (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(assessingFinancialsWithFormulas),
-       (emilyBrown)-[:EVALUATED_MATERIAL { rating: 3, comment: "Overall, I feel more confident in applying what I've learned to real-world scenarios." }]->(managingInnovation),
-       (emilyBrown)-[:EVALUATED_MATERIAL { rating: 3, comment: "Overall, I feel more confident in applying what I've learned to real-world scenarios." }]->(definingGoals),
-       (emilyBrown)-[:EVALUATED_MATERIAL { rating: 3, comment: "Overall, I feel more confident in applying what I've learned to real-world scenarios." }]->(managingActions),
-       (emilyBrown)-[:EVALUATED_MATERIAL { rating: 3, comment: "Overall, I feel more confident in applying what I've learned to real-world scenarios." }]->(empoweringTeams),
-       (emilyBrown)-[:EVALUATED_MATERIAL { rating: 3, comment: "Overall, I feel more confident in applying what I've learned to real-world scenarios." }]->(monitoringResults),
-       (michaelDavis)-[:EVALUATED_MATERIAL { rating: 2, comment: "I would have liked more interactive discussions or forums for peer learning." }]->(introductionToSecurityAndWallets),
-       (michaelDavis)-[:EVALUATED_MATERIAL { rating: 3, comment: "I would have liked more interactive discussions or forums for peer learning." }]->(introductionToBlockchain),
-       (michaelDavis)-[:EVALUATED_MATERIAL { rating: 3, comment: "I would have liked more interactive discussions or forums for peer learning." }]->(introductionToMining),
-       (michaelDavis)-[:EVALUATED_MATERIAL { rating: 2, comment: "I would have liked more interactive discussions or forums for peer learning." }]->(introductionToCryptocurrencies),
-       (michaelDavis)-[:EVALUATED_MATERIAL { rating: 3, comment: "Could use more in-depth coverage on certain concepts." }]->(introToEthereumProsAndConsTransactingInvestingAndMining),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(foundationsOfMacroeconomics),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(aggregateDemandAndAggregateSupply),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(macroeconomicEquilibrium),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(lowUnemployment),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(lowAndStableRateOfInflation),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(economicGrowth),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(equityInTheDistributionOfIncome),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(introductionToMicroeconomics),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(demandSupplyAndMarketEquilibrium),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(elasticities),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(governmentIntervention),
-       (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(marketFailure),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 5, comment: "I found the supplementary readings very informative and enriching." }]->(foundationsOfMacroeconomics),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 5, comment: "I found the supplementary readings very informative and enriching." }]->(aggregateDemandAndAggregateSupply),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 5, comment: "I found the supplementary readings very informative and enriching." }]->(macroeconomicEquilibrium),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 5, comment: "I found the supplementary readings very informative and enriching." }]->(lowUnemployment),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material catered well to both beginners and more advanced learners." }]->(lowAndStableRateOfInflation),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 1, comment: "Could use more in-depth coverage on certain concepts." }]->(economicGrowth),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 2, comment: "The pacing was too fast, struggled to keep up at times." }]->(equityInTheDistributionOfIncome),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 2, comment: "The pacing was too fast, struggled to keep up at times." }]->(introductionToMicroeconomics),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 2, comment: "The pacing was too fast, struggled to keep up at times." }]->(demandSupplyAndMarketEquilibrium),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 4, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(elasticities),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 4, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(governmentIntervention),
-       (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 4, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(marketFailure),
-       (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The hands-on projects were challenging but rewarding." }]->(buildYourHackingEnvironment),
-       (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The hands-on projects were challenging but rewarding." }]->(linuxTerminalIncludingBasicFunctionalitiesAndCLI),
-       (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(howCanYouUseTorToProtectYourAnonymityOnline),
-       (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was engaging and kept me interested throughout." }]->(proxyChainsForUsingProxyServersHidingYourIPAndObtainingAccess),
-       (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was engaging and kept me interested throughout." }]->(whatIsAVirtualPrivateNetworkAndHowYouCanStayAnonymousWihtVPN),
-       (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(settingUpATestingEnvironmentUsingVirtualMachines),
-       (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(operatingSystemSecurityAndPrivacyWindowsVSMacOSXVSLinux),
-       (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(securityBugsAndVulnerabilities),
-       (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(reducingThreatPrivilige),
-       (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(socialEngineeringAndSocialMediaOffenceAndDefence),
-       (danielGarcia)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(sketching),
-       (danielGarcia)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(userFlows),
-       (danielGarcia)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(sitemaps),
-       (danielGarcia)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(wireframes),
-       (danielGarcia)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(prototyping),
-       (danielGarcia)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(photoGalleryPage),
-       (danielGarcia)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(blogPosts),
-       (danielGarcia)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(widgets),
-       (danielGarcia)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(contactPage),
-       (danielGarcia)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(usersAndSettings),
-       (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(sketching),
-       (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(userFlows),
-       (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(sitemaps),
-       (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(wireframes),
-       (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(prototyping),
-       (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(learningTheFigmaInterface),
-       (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(addingAndEditingContent),
-       (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(completingTheDesign),
-       (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(prototypingSharingAndExporting);
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(reactEssentialsDeepDive)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(reactEssentialsPracticeProject)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was up-to-date and relevant to current industry practices." }]->(stylingReactComponents)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 3, comment: "Mediocre practice project" }]->(projectManagementAppWithComponentsStateRefsAndMore)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 2, comment: "The practice project must be of better quality" }]->(practiceProjectBuildingAQuizApp)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "Excellent content!" }]->(understandingAngularTemplateSyntax)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 4, comment: "Well-structured content" }]->(masteringPipes)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 1, comment: "The pacing was too fast, struggled to keep up at times." }]->(directivesInAngular)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 4, comment: "Well-structured content" }]->(routingAndNavigationBetweenPages)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 3, comment: "Could benefit from more visual aids to aid understanding." }]->(lazyLoadingWithModules)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The instructor's explanations were clear and easy to follow." }]->(introductionToKotlin)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 4, comment: "The content was well-organized and structured logically." }]->(basicDifferencesBetweenKotlinAndJava)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The instructor's explanations were clear and easy to follow." }]->(dataTypesAndNullReferenceHandling)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(lambdaExpressionsCollectionsAndGenerics)
+CREATE (johnDoe)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material was up-to-date and relevant to current industry practices." }]->(javaInteroperability)
+CREATE (janeSmith)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(understandingAngularTemplateSyntax)
+CREATE (janeSmith)-[:EVALUATED_MATERIAL { rating: 3, comment: "The pacing was too fast, struggled to keep up at times." }]->(masteringPipes)
+CREATE (janeSmith)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material was engaging and kept me interested throughout" }]->(directivesInAngular)
+CREATE (janeSmith)-[:EVALUATED_MATERIAL { rating: 2, comment: "Could use more in-depth coverage on certain concepts." }]->(routingAndNavigationBetweenPages)
+CREATE (janeSmith)-[:EVALUATED_MATERIAL { rating: 4, comment: "The examples provided were very practical and useful." }]->(lazyLoadingWithModules)
+CREATE (janeSmith)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material was engaging and kept me interested throughout." }]->(setupASPNETCoreMVCApplication)
+CREATE (janeSmith)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(manipulatingWebsiteViewsAndLayout)
+CREATE (janeSmith)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(addingADatabase)
+CREATE (janeSmith)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(customizingViewsAndElements)
+CREATE (janeSmith)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(websiteAuthentication)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(investorValuationTopicsAndDilution)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(financialAnalysis)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was engaging and kept me interested throughout." }]->(managingCashFlow)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was engaging and kept me interested throughout." }]->(financialCapitalAndSecuritiesLaw)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was engaging and kept me interested throughout." }]->(projectingFinancialStatements)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(whatIsEntrepreneurship)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(overviewOfPlanning)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(yourBusinessPlan)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(craftingABusinessPlan)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(craftingAMarketingPlan)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The material catered well to both beginners and more advanced learners." }]->(incomeStatementAnalysis)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(balanceSheetAnalysis)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(priceToRevenue)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(priceToEarningsAndAdditionalValuationMethodologies)
+CREATE (alexJohnson)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(assessingFinancialsWithFormulas)
+CREATE (emilyBrown)-[:EVALUATED_MATERIAL { rating: 3, comment: "Overall, I feel more confident in applying what I've learned to real-world scenarios." }]->(managingInnovation)
+CREATE (emilyBrown)-[:EVALUATED_MATERIAL { rating: 3, comment: "Overall, I feel more confident in applying what I've learned to real-world scenarios." }]->(definingGoals)
+CREATE (emilyBrown)-[:EVALUATED_MATERIAL { rating: 3, comment: "Overall, I feel more confident in applying what I've learned to real-world scenarios." }]->(managingActions)
+CREATE (emilyBrown)-[:EVALUATED_MATERIAL { rating: 3, comment: "Overall, I feel more confident in applying what I've learned to real-world scenarios." }]->(empoweringTeams)
+CREATE (emilyBrown)-[:EVALUATED_MATERIAL { rating: 3, comment: "Overall, I feel more confident in applying what I've learned to real-world scenarios." }]->(monitoringResults)
+CREATE (michaelDavis)-[:EVALUATED_MATERIAL { rating: 2, comment: "I would have liked more interactive discussions or forums for peer learning." }]->(introductionToSecurityAndWallets)
+CREATE (michaelDavis)-[:EVALUATED_MATERIAL { rating: 3, comment: "I would have liked more interactive discussions or forums for peer learning." }]->(introductionToBlockchain)
+CREATE (michaelDavis)-[:EVALUATED_MATERIAL { rating: 3, comment: "I would have liked more interactive discussions or forums for peer learning." }]->(introductionToMining)
+CREATE (michaelDavis)-[:EVALUATED_MATERIAL { rating: 2, comment: "I would have liked more interactive discussions or forums for peer learning." }]->(introductionToCryptocurrencies)
+CREATE (michaelDavis)-[:EVALUATED_MATERIAL { rating: 3, comment: "Could use more in-depth coverage on certain concepts." }]->(introToEthereumProsAndConsTransactingInvestingAndMining)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(foundationsOfMacroeconomics)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(aggregateDemandAndAggregateSupply)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(macroeconomicEquilibrium)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(lowUnemployment)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 4, comment: "Great explanation, really helped me understand the topic!" }]->(lowAndStableRateOfInflation)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(economicGrowth)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(equityInTheDistributionOfIncome)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(introductionToMicroeconomics)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(demandSupplyAndMarketEquilibrium)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(elasticities)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(governmentIntervention)
+CREATE (sarahWilson)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(marketFailure)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 5, comment: "I found the supplementary readings very informative and enriching." }]->(foundationsOfMacroeconomics)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 5, comment: "I found the supplementary readings very informative and enriching." }]->(aggregateDemandAndAggregateSupply)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 5, comment: "I found the supplementary readings very informative and enriching." }]->(macroeconomicEquilibrium)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 5, comment: "I found the supplementary readings very informative and enriching." }]->(lowUnemployment)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material catered well to both beginners and more advanced learners." }]->(lowAndStableRateOfInflation)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 1, comment: "Could use more in-depth coverage on certain concepts." }]->(economicGrowth)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 2, comment: "The pacing was too fast, struggled to keep up at times." }]->(equityInTheDistributionOfIncome)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 2, comment: "The pacing was too fast, struggled to keep up at times." }]->(introductionToMicroeconomics)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 2, comment: "The pacing was too fast, struggled to keep up at times." }]->(demandSupplyAndMarketEquilibrium)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 4, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(elasticities)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 4, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(governmentIntervention)
+CREATE (ryanTaylor)-[:EVALUATED_MATERIAL { rating: 4, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(marketFailure)
+CREATE (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The hands-on projects were challenging but rewarding." }]->(buildYourHackingEnvironment)
+CREATE (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The hands-on projects were challenging but rewarding." }]->(linuxTerminalIncludingBasicFunctionalitiesAndCLI)
+CREATE (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "Clear and concise, made it easy to grasp complex ideas." }]->(howCanYouUseTorToProtectYourAnonymityOnline)
+CREATE (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was engaging and kept me interested throughout." }]->(proxyChainsForUsingProxyServersHidingYourIPAndObtainingAccess)
+CREATE (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 4, comment: "The material was engaging and kept me interested throughout." }]->(whatIsAVirtualPrivateNetworkAndHowYouCanStayAnonymousWihtVPN)
+CREATE (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(settingUpATestingEnvironmentUsingVirtualMachines)
+CREATE (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(operatingSystemSecurityAndPrivacyWindowsVSMacOSXVSLinux)
+CREATE (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(securityBugsAndVulnerabilities)
+CREATE (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(reducingThreatPrivilige)
+CREATE (oliviaMartinez)-[:EVALUATED_MATERIAL { rating: 5, comment: "The content was well-organized and structured logically." }]->(socialEngineeringAndSocialMediaOffenceAndDefence)
+CREATE (danielGarcia)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(sketching)
+CREATE (danielGarcia)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(userFlows)
+CREATE (danielGarcia)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(sitemaps)
+CREATE (danielGarcia)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(wireframes)
+CREATE (danielGarcia)-[:EVALUATED_MATERIAL { rating: 5, comment: "Enjoyed the interactive exercises, they reinforced learning well." }]->(prototyping)
+CREATE (danielGarcia)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(photoGalleryPage)
+CREATE (danielGarcia)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(blogPosts)
+CREATE (danielGarcia)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(widgets)
+CREATE (danielGarcia)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(contactPage)
+CREATE (danielGarcia)-[:EVALUATED_MATERIAL { rating: 4, comment: "The instructor's explanations were clear and easy to follow." }]->(usersAndSettings)
+CREATE (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(sketching)
+CREATE (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(userFlows)
+CREATE (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(sitemaps)
+CREATE (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(wireframes)
+CREATE (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(prototyping)
+CREATE (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(learningTheFigmaInterface)
+CREATE (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(addingAndEditingContent)
+CREATE (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(completingTheDesign)
+CREATE (samanthaAnderson)-[:EVALUATED_MATERIAL { rating: 5, comment: "The examples provided were very practical and useful." }]->(prototypingSharingAndExporting)
