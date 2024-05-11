@@ -1,4 +1,6 @@
 
+// Add initial data for the Graph database
+
 CREATE (development:Category { name: "Development" })
 CREATE (business:Category { name: "Business" })
 CREATE (financeAndAccounting:Category { name: "Finance & Accounting" })

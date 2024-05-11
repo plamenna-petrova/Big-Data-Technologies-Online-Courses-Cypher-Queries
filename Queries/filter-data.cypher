@@ -1,4 +1,6 @@
 
+// Example queries for the Graph database
+
 // 1) Get details of users enrolled for the course "Macroeconomics: A Comprehensive Economics Course"
 MATCH (user:User)-[:ENROLLED_FOR_COURSE]->(:Course {name: "Macroeconomics: A Comprehensive Economics Course"})
 RETURN user.firstName AS UserFirstName, user.lastName AS UserLastName, user.email AS UserEmail
