@@ -75,3 +75,40 @@ LIMIT 1
 MATCH (course)<-[:TEACHES_COURSE]-(instructor:Instructor)
 RETURN course.name AS CourseName, instructor.firstName + ' ' + instructor.lastName AS InstructorFullName, averageRating AS CourseAverageRating
 
+// 12) Get the most expensive course, its instructors, users and materials
+MATCH (course:Course)
+WITH course
+ORDER BY course.price DESC
+LIMIT 1
+MATCH (course)<-[:TEACHES_COURSE]-(instructor:Instructor)
+MATCH (course)<-[:ENROLLED_FOR_COURSE]-(user:User)
+MATCH (course)-[:INCLUDES_MATERIAL]->(material:Material)
+RETURN course.name AS CourseName, course.price AS CoursePrice, 
+       COLLECT(DISTINCT instructor.firstName + ' ' + instructor.lastName) AS Instructors,
+       COLLECT(DISTINCT user.firstName + ' ' + user.lastName) AS Users,
+       COLLECT(DISTINCT material.title) AS Materials
+
+// 13) Get the names of the courses, which don't include certification, their instructors and enrolled users
+MATCH (course:Course)
+WHERE NOT course.certificateOnCompletion
+OPTIONAL MATCH (course)<-[:TEACHES_COURSE]-(instructor:Instructor)
+OPTIONAL MATCH (course)<-[:ENROLLED_FOR_COURSE]-(user:User)
+WITH course, COLLECT(instructor.firstName + ' ' + instructor.lastName) AS instructorNames, COLLECT(user.firstName + ' ' + user.lastName) AS userNames
+RETURN course.name AS CourseName,
+       REDUCE(i = '', name IN instructorNames | i + CASE WHEN i = '' THEN name ELSE ', ' + name END) AS Instructors,
+       REDUCE(u = '', name IN userNames | u + CASE WHEN u = '' THEN name ELSE ', ' + name END) AS Users
+
+// 14) Get users with phone numbers who have enrolled for courses which cost less than 40 dollars and which materials they have downloaded
+MATCH (user:User)-[:ENROLLED_FOR_COURSE]->(course:Course)
+WHERE course.price < 40
+MATCH (user)-[:DOWNLOADED_MATERIAL]->(material:Material)
+RETURN user.firstName AS UserFirstName, user.lastName AS UserLastName, user.phoneNumber AS UserPhoneNumber, COLLECT(material.title) AS DownloadedMaterials
+
+// 15) Get the course name with the shortest comment on evaluated material and its name
+MATCH (course:Course)-[:INCLUDES_MATERIAL]->(material:Material)<-[evaluatedMaterial:EVALUATED_MATERIAL]-()
+WITH course, material, evaluatedMaterial,
+     MIN(SIZE(evaluatedMaterial.comment)) AS shortestComment
+WHERE shortestComment > 0
+RETURN course.name AS CourseName, material.title + ', shortest comment: ' + evaluatedMaterial.comment AS MaterialAndShortestComment
+ORDER BY shortestComment ASC
+LIMIT 1 
